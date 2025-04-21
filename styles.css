@@ -1,0 +1,26 @@
+/* Add border styles for all sections */
+section {
+    border: 5px solid #FFD700; /* Gold border for a premium look */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Add padding inside the border */
+    margin-bottom: 30px; /* Space between sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    background: linear-gradient(135deg, #f8f9fc, #e0e0e0); /* Light gradient background */
+}
+
+/* Enhance section headers */
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #153D7D; /* Dark blue for contrast */
+    text-shadow: 2px 2px #FFD700; /* Gold shadow for elegance */
+    margin-bottom: 20px;
+}
+
+/* Add hover effect for sections */
+section:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

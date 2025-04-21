@@ -1,0 +1,371 @@
+{
+    "categories": [
+        {
+            "service": "Barangay Services & Certificates",
+            "questions": [
+                {
+                    "question": "How do I get a barangay clearance?",
+                    "answer": "You can apply for a barangay clearance through the Barangay E-Governance System. Fill out the application form, upload the required documents, and pay the processing fee in person at the barangay hall. Once approved, you can pick it up at the barangay hall."
+                },
+                {
+                    "question": "What are the requirements for a barangay clearance?",
+                    "answer": "Requirements include:\n\n- Valid ID (uploaded as a scanned copy)\n- Proof of residence (uploaded as a scanned copy of a utility bill, lease agreement, etc.)\n- Payment for the processing fee must be made in person at the barangay hall."
+                },
+                {
+                    "question": "How much is the fee for a barangay clearance?",
+                    "answer": "The fee is displayed in the Barangay E-Governance System during the application process. It typically ranges from ₱50 to ₱200, depending on your barangay’s ordinance. Payment must be made in person at the barangay hall."
+                },
+                {
+                    "question": "How long does it take to process a barangay clearance?",
+                    "answer": "Processing usually takes 1–2 business days. You will receive a notification in the email once your clearance is ready for pickup."
+                },
+                {
+                    "question": "Can I apply for a barangay clearance online?",
+                    "answer": "Yes, you can apply through the Barangay E-Governance System. Visit the official website to start the application."
+                }
+            ]
+        },
+        {
+            "service": "Complaints & Incident Reports",
+            "questions": [
+                {
+                    "question": "How do I file a complaint in the barangay?",
+                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Complaints' section. Fill out the complaint form, attach any supporting documents, and submit your report. You will be notified of the next steps through the system."
+                },
+                {
+                    "question": "Where can I report noise disturbances in my neighborhood?",
+                    "answer": "Use the Barangay E-Governance System to report noise disturbances. Go to the 'Complaints' section, select 'Noise Disturbance,' and provide the necessary details."
+                },
+                {
+                    "question": "How do I report illegal activities in my barangay?",
+                    "answer": "Report illegal activities through the Barangay E-Governance System by selecting the 'Incident Reports' section. Provide detailed information and upload any evidence if available."
+                },
+                {
+                    "question": "Can I file a complaint online?",
+                    "answer": "Yes, all complaints can be filed online through the Barangay E-Governance System. Access the complaint submission form."
+                }
+            ]
+        },
+        {
+            "service": "Disaster Preparedness & Emergency Services",
+            "questions": [
+                {
+                    "question": "What should I do during a typhoon?",
+                    "answer": "Log in to the Barangay E-Governance System to access the 'Disaster Preparedness' section. It provides real-time updates, safety tips, and emergency contact numbers."
+                },
+                {
+                    "question": "Where are the barangay evacuation centers?",
+                    "answer": "The list of evacuation centers is available in the 'Emergency Services' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "What are the emergency hotlines?",
+                    "answer": "Emergency hotlines, including the barangay hotline, police, and fire department, are listed in the 'Emergency Contacts' section of the Barangay E-Governance System."
+                }
+            ]
+        },
+        {
+            "service": "Social & Health Services",
+            "questions": [
+                {
+                    "question": "Where can I get free medical check-ups?",
+                    "answer": "Free medical check-ups are scheduled through the Barangay E-Governance System. Log in to view available dates and register for an appointment."
+                },
+                {
+                    "question": "Does the barangay offer free vaccinations?",
+                    "answer": "Yes, free vaccinations are available. Check the schedule and register through the 'Health Services' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I register for barangay assistance programs?",
+                    "answer": "Register for assistance programs through the Barangay E-Governance System. Navigate to the 'Social Services' section and complete the application form."
+                }
+            ]
+        },
+        {
+            "service": "Barangay Rules & Policies",
+            "questions": [
+                {
+                    "question": "What are the curfew hours in the barangay?",
+                    "answer": "Curfew hours are listed in the 'Rules & Policies' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "Is there an ordinance against loud music?",
+                    "answer": "Yes, details about the ordinance are available in the 'Rules & Policies' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "Are pets allowed in barangay public spaces?",
+                    "answer": "Yes, but specific rules and guidelines are outlined in the 'Rules & Policies' section of the Barangay E-Governance System."
+                }
+            ]
+        },
+        {
+            "service": "Voter Registration & Elections",
+            "questions": [
+                {
+                    "question": "How do I register as a voter in the barangay?",
+                    "answer": "Voter registration can be initiated through the Barangay E-Governance System. Fill out the voter registration form and upload the required documents."
+                },
+                {
+                    "question": "Where do I vote in the barangay elections?",
+                    "answer": "Your assigned polling station is displayed in the 'Elections' section of the Barangay E-Governance System."
+                }
+            ]
+        },
+        {
+            "service": "Education & Scholarships",
+            "questions": [
+                {
+                    "question": "How do I apply for a barangay scholarship?",
+                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Scholarships' section. Fill out the application form and upload the required documents."
+                },
+                {
+                    "question": "What are the requirements for a barangay scholarship?",
+                    "answer": "Requirements include:\n\n- Proof of residency\n- Latest school report card\n- Certificate of indigency (if applicable)"
+                },
+                {
+                    "question": "When is the deadline for scholarship applications?",
+                    "answer": "The deadline is announced in the 'Scholarships' section of the Barangay E-Governance System. Check regularly for updates."
+                }
+            ]
+        },
+        {
+            "service": "Transportation & Parking",
+            "questions": [
+                {
+                    "question": "Where can I park near the barangay hall?",
+                    "answer": "Designated parking areas are listed in the 'Transportation' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I report illegal parking?",
+                    "answer": "Log in to the Barangay E-Governance System and file a report under the 'Transportation' section."
+                },
+                {
+                    "question": "Are there public transportation routes in the barangay?",
+                    "answer": "Yes, public transportation routes and schedules are available in the 'Transportation' section of the Barangay E-Governance System."
+                }
+            ]
+        },
+        {
+            "service": "Environmental Programs",
+            "questions": [
+                {
+                    "question": "How do I join the barangay tree-planting program?",
+                    "answer": "Register through the 'Environmental Programs' section of the Barangay E-Governance System. Event details and schedules are provided there."
+                },
+                {
+                    "question": "What are the barangay's waste segregation guidelines?",
+                    "answer": "Waste segregation guidelines are available in the 'Environmental Programs' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I report illegal dumping of waste?",
+                    "answer": "File a report in the 'Environmental Programs' section of the Barangay E-Governance System. Provide details and upload evidence if available."
+                }
+            ]
+        },
+        {
+            "service": "Cultural Events & Activities",
+            "questions": [
+                {
+                    "question": "What are the upcoming cultural events in the barangay?",
+                    "answer": "Check the 'Cultural Events' section of the Barangay E-Governance System for a list of upcoming events."
+                },
+                {
+                    "question": "How do I participate in barangay festivals?",
+                    "answer": "Register for festivals through the 'Cultural Events' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "Are there workshops for traditional crafts?",
+                    "answer": "Yes, details about workshops are available in the 'Cultural Events' section of the Barangay E-Governance System."
+                }
+            ]
+        },
+        {
+            "service": "General Questions",
+            "questions": [
+                {
+                    "question": "What are the operating hours of the barangay hall?",
+                    "answer": "The barangay hall operates from 8:00 AM to 5:00 PM, Monday to Friday, excluding public holidays."
+                },
+                {
+                    "question": "How can I contact the barangay office?",
+                    "answer": "You can contact the barangay office through the hotline number listed in the 'Emergency Contacts' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "Where is the barangay hall located?",
+                    "answer": "The barangay hall is located at the center of Barangay District 1, near the main plaza."
+                },
+                {
+                    "question": "How do I request a meeting with the barangay chairman?",
+                    "answer": "To request a meeting, log in to the Barangay E-Governance System and submit a request under the 'Appointments' section."
+                },
+                {
+                    "question": "What is the process for requesting barangay assistance?",
+                    "answer": "Log in to the Barangay E-Governance System, navigate to the 'Social Services' section, and fill out the assistance request form."
+                },
+                {
+                    "question": "How do I report a lost item?",
+                    "answer": "You can report a lost item through the 'Incident Reports' section of the Barangay E-Governance System. Provide details and upload any supporting evidence."
+                },
+                {
+                    "question": "What are the barangay's public holidays?",
+                    "answer": "Public holidays are listed in the 'Announcements' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I volunteer for barangay programs?",
+                    "answer": "Visit the 'Volunteer Programs' section of the Barangay E-Governance System to view available opportunities and register."
+                },
+                {
+                    "question": "What is the barangay's policy on community events?",
+                    "answer": "Community event policies are outlined in the 'Rules & Policies' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I provide feedback to the barangay office?",
+                    "answer": "Feedback can be submitted through the 'Feedback' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "What is the barangay's vision and mission?",
+                    "answer": "The barangay's vision and mission are detailed in the 'About Us' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I access the barangay's annual reports?",
+                    "answer": "Annual reports are available in the 'Transparency' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "What are the barangay's disaster preparedness plans?",
+                    "answer": "Disaster preparedness plans are outlined in the 'Disaster Preparedness' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I participate in barangay clean-up drives?",
+                    "answer": "Register for clean-up drives through the 'Environmental Programs' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "What is the barangay's policy on noise disturbances?",
+                    "answer": "The policy on noise disturbances is detailed in the 'Rules & Policies' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I apply for a barangay ID?",
+                    "answer": "Apply for a barangay ID through the 'Barangay Services' section of the Barangay E-Governance System. Fill out the application form and upload the required documents."
+                },
+                {
+                    "question": "What are the barangay's initiatives for senior citizens?",
+                    "answer": "Initiatives for senior citizens are listed in the 'Social Services' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I register for barangay sports programs?",
+                    "answer": "Register for sports programs through the 'Cultural Events' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "What is the barangay's policy on waste management?",
+                    "answer": "The waste management policy is outlined in the 'Environmental Programs' section of the Barangay E-Governance System."
+                },
+                {
+                    "question": "How do I reset my password?",
+                    "answer": "To reset your password, click on the 'Forgot Password' link on the login page and follow the instructions."
+                },
+                {
+                    "question": "Can I access the system on mobile devices?",
+                    "answer": "Yes, the Barangay E-Governance System is mobile-friendly and can be accessed on smartphones and tablets."
+                },
+                {
+                    "question": "Is my personal information secure in the system?",
+                    "answer": "Yes, the system uses encryption and follows data privacy regulations to ensure your information is secure."
+                },
+                {
+                    "question": "What should I do if I encounter an error in the system?",
+                    "answer": "If you encounter an error, please report it through the 'Feedback' section or contact the barangay office for assistance."
+                },
+                {
+                    "question": "Can I use the system outside barangay operating hours?",
+                    "answer": "Yes, the Barangay E-Governance System is available 24/7 for your convenience."
+                }
+            ]
+        },
+        {
+            "service": "Greetings",
+            "questions": [
+                {
+                    "question": "Hello",
+                    "answer": "Hi there! How can I assist you today?"
+                },
+                {
+                    "question": "Hi",
+                    "answer": "Hello! How can I help you?"
+                },
+                {
+                    "question": "Good morning",
+                    "answer": "Good morning! How can I assist you today?"
+                },
+                {
+                    "question": "Good afternoon",
+                    "answer": "Good afternoon! How can I help you?"
+                },
+                {
+                    "question": "Good evening",
+                    "answer": "Good evening! How can I assist you?"
+                },
+                {
+                    "question": "How are you?",
+                    "answer": "I'm just a chatbot, but I'm here to help you with your questions!"
+                },
+                {
+                    "question": "Thank you",
+                    "answer": "You're welcome! Let me know if there's anything else I can help with."
+                },
+                {
+                    "question": "Bye",
+                    "answer": "Goodbye! Have a great day!"
+                }
+            ]
+        },
+        {
+            "service": "Barangay Clearance",
+            "questions": [
+                {
+                    "question": "What is a Barangay Clearance?",
+                    "answer": "A Barangay Clearance is an official document issued by the barangay certifying that an individual is a resident of the barangay and has no pending issues or complaints."
+                },
+                {
+                    "question": "How do I apply for a Barangay Clearance?",
+                    "answer": "You can apply for a Barangay Clearance by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form, provide the necessary documents, and pay the required fee."
+                },
+                {
+                    "question": "What are the requirements for a Barangay Clearance?",
+                    "answer": "Requirements include a valid ID, proof of residence, and payment of the processing fee."
+                }
+            ]
+        },
+        {
+            "service": "Certificate of Indigency",
+            "questions": [
+                {
+                    "question": "What is a Certificate of Indigency?",
+                    "answer": "A Certificate of Indigency is a document issued by the barangay to certify that an individual or family is financially incapable and in need of assistance."
+                },
+                {
+                    "question": "How do I apply for a Certificate of Indigency?",
+                    "answer": "Visit the barangay hall or use the Barangay E-Governance System to apply. Submit the required documents and fill out the application form."
+                },
+                {
+                    "question": "What are the requirements for a Certificate of Indigency?",
+                    "answer": "Requirements include a valid ID, proof of residence, and a letter of request stating the purpose of the certificate."
+                }
+            ]
+        },
+        {
+            "service": "Certificate of Residency",
+            "questions": [
+                {
+                    "question": "What is a Certificate of Residency?",
+                    "answer": "A Certificate of Residency is an official document issued by the barangay certifying that an individual is a resident of the barangay."
+                },
+                {
+                    "question": "How do I apply for a Certificate of Residency?",
+                    "answer": "You can apply for a Certificate of Residency by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form and provide the necessary documents."
+                },
+                {
+                    "question": "What are the requirements for a Certificate of Residency?",
+                    "answer": "Requirements include a valid ID and proof of residence."
+                }
+            ]
+        }
+    ]
+}
