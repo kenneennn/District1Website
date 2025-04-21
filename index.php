@@ -108,9 +108,10 @@ function displayImage($imageData) {
             display: inline;
         }
         .navbar ul li a {
-            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            color: #FFD700; /* Add color to the links */
             text-decoration: none;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             padding: 10px 15px;
             transition: color 0.3s, background-color 0.3s, transform 0.3s;
@@ -501,82 +502,71 @@ function displayImage($imageData) {
         }
        /* E-Governance Section */
        .e-governance {
-        background: #f8f9fc; /* Light background color */
-            padding: 60px 20px; /* Reduced padding to move elements up */
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .systems {
-            display: flex;
-            justify-content: center;
-            gap: 30px; /* Increased gap */
-            flex-wrap: wrap;
-            margin-top: 20px; /* Reduced margin to move elements up */
-        }
-        /* Optional: Add a subtle pattern or texture */
-        .e-governance::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0.1; /* Make it subtle */
-            z-index: 0;
-        }
-        /* Glass Morphism Effect for System Cards */
-        .system {
-            background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-            backdrop-filter: blur(10px); /* Blur effect */
-            border: 2px solid rgba(21, 61, 125, 0.2); /* Light border */
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Soft shadow */
-            padding: 30px 20px; /* Adjusted padding */
-            text-align: center;
-            width: 280px; /* Adjusted width */
-            transition: transform 0.3s, box-shadow 0.3s;
-            position: relative;
-            z-index: 1;
-        }
-        .system:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-        }
-        .system a {
-            color: #153D7D; /* Updated color */
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .system a i {
-            font-size: 50px; /* Increased icon size */
-            margin-bottom: 20px; /* Increased margin */
-            color: #FFD700; /* Updated color */
-        }
-        .system a span {
-            font-size: 22px; /* Increased font size */
-            font-weight: bold;
-            margin-top: 10px;
-            color: #153D7D; /* Updated color */
-        }
-        .system a p {
-            font-size: 18px; /* Increased font size */
-            color: #19345a; /* Updated color */
-            margin-top: 8px;
-        }
-        .e-governance h2.e-governance {
-            font-size: 36px; /* Increased font size */
-            margin-top: 0px; /* Adjusted margin to move up */
-            font-weight: 700;
-            color: #FFD700; /* Updated color */
-            text-shadow: 2px 2px #e0e0e0; /* Added text shadow */
-            position: relative;
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
+        background: linear-gradient(135deg, #f8f9fc, #e0e0e0); /* Add gradient background */
+        border-radius: 15px; /* Rounded corners */
+        padding: 60px 20px; /* Adjust padding */
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .e-governance h2 {
+        font-size: 36px; /* Larger font size */
+        font-weight: bold;
+        color: #FFD700; /* Gold color */
+        text-shadow: 2px 2px #19345a; /* Text shadow */
+        margin-bottom: 20px;
+    }
+    .e-governance p {
+        font-size: 18px;
+        color: #19345a;
+        margin-bottom: 30px;
+    }
+    .systems {
+        display: flex;
+        justify-content: center;
+        gap: 30px; /* Increased gap */
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .system {
+        background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+        backdrop-filter: blur(10px); /* Blur effect */
+        border: 2px solid rgba(21, 61, 125, 0.2); /* Light border */
+        border-radius: 15px;
+        padding: 30px 20px;
+        text-align: center;
+        width: 280px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        position: relative;
+        z-index: 1;
+    }
+    .system:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    }
+    .system a {
+        color: #153D7D; /* Updated color */
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .system a i {
+        font-size: 50px; /* Increased icon size */
+        margin-bottom: 20px;
+        color: #FFD700; /* Gold color */
+    }
+    .system a span {
+        font-size: 22px; /* Larger font size */
+        font-weight: bold;
+        margin-top: 10px;
+        color: #153D7D;
+    }
+    .system a p {
+        font-size: 18px;
+        color: #19345a;
+        margin-top: 8px;
+    }
       /* Enhanced Officials Section */
     .barangay-officials {
         background-color: #ffffff;
