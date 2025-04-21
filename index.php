@@ -1020,6 +1020,7 @@ function displayImage($imageData) {
             list-style: none;
             width: min(60rem, 90%);
             margin-inline: auto;
+            text-align: center; /* Align content to the center */
         }
         .timeline ul::before {
             content: "";
@@ -1034,10 +1035,11 @@ function displayImage($imageData) {
         .timeline ul li {
             grid-column: 2;
             --inlineP: 1.5rem;
-            margin-inline: var(--inlineP);
+            margin-inline: auto; /* Center each timeline item */
             grid-row: span 2;
             display: grid;
             grid-template-rows: min-content min-content min-content;
+            text-align: center; /* Center text inside each item */
         }
         .timeline ul li .date {
             --dateH: 3rem;
@@ -1082,6 +1084,8 @@ function displayImage($imageData) {
             position: relative;
             padding-inline: 1.5rem;
             color: #f8f9fc;
+            text-align: center; /* Center-align the title and description */
+            margin: 0 auto; /* Ensure proper centering */
         }
         .timeline ul li .title {
             overflow: hidden;
@@ -1090,6 +1094,7 @@ function displayImage($imageData) {
             font-weight: 500;
         }
         .timeline ul li .descr {
+            text-align: justify; /* Justify text alignment */
             padding-block-end: 1.5rem;
             font-weight: 300;
         }
@@ -1139,6 +1144,73 @@ function displayImage($imageData) {
             .timeline ul li:nth-child(odd) .date {
                 border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
             }
+        }
+        .timeline ul li .icon {
+            font-size: 24px;
+            color: #FFD700;
+            margin-right: 10px;
+        }
+        .timeline ul li .title {
+            display: flex;
+            align-items: center;
+        }
+        .timeline ul li:nth-child(1) .icon::before {
+            content: '\f015'; /* FontAwesome icon for home */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(2) .icon::before {
+            content: '\f0c0'; /* FontAwesome icon for users */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(3) .icon::before {
+            content: '\f013'; /* FontAwesome icon for cog */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(4) .icon::before {
+            content: '\f1b3'; /* FontAwesome icon for building */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(5) .icon::before {
+            content: '\f1e3'; /* FontAwesome icon for anniversary */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(6) .icon::before {
+            content: '\f06c'; /* FontAwesome icon for leaf */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(7) .icon::before {
+            content: '\f21e'; /* FontAwesome icon for heartbeat */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(8) .icon::before {
+            content: '\f02d'; /* FontAwesome icon for book */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li:nth-child(9) .icon::before {
+            content: '\f1b2'; /* FontAwesome icon for map */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+        }
+        .timeline ul li .date {
+            margin-inline: calc(var(--inlineP) * -1); /* Ensure alignment */
+            border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2); /* Keep desktop styling */
+        }
+
+        .timeline ul li .date::after {
+            display: block; /* Ensure timeline markers are visible */
+        }
+
+        .timeline ul li .title,
+        .timeline ul li .descr {
+            padding-inline: 1.5rem; /* Maintain consistent padding */
         }
         .modal-body h4 {
             font-size: 20px;
@@ -1653,55 +1725,6 @@ function displayImage($imageData) {
             text-align: right;
             line-height: 1.5;
         }
-        .timeline ul li .icon {
-            font-size: 24px;
-            color: #FFD700;
-            margin-right: 10px;
-        }
-        .timeline ul li .title {
-            display: flex;
-            align-items: center;
-        }
-        .timeline ul li:nth-child(1) .icon::before {
-            content: '\f015'; /* FontAwesome icon for home */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(2) .icon::before {
-            content: '\f0c0'; /* FontAwesome icon for users */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(3) .icon::before {
-            content: '\f013'; /* FontAwesome icon for cog */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(4) .icon::before {
-            content: '\f1b3'; /* FontAwesome icon for building */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(5) .icon::before {
-            content: '\f1e3'; /* FontAwesome icon for anniversary */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(6) .icon::before {
-            content: '\f06c'; /* FontAwesome icon for leaf */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(7) .icon::before {
-            content: '\f21e'; /* FontAwesome icon for heartbeat */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
-        .timeline ul li:nth-child(8) .icon::before {
-            content: '\f02d'; /* FontAwesome icon for book */
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-        }
         .loading-overlay {
             position: fixed;
             top: 0;
@@ -1737,7 +1760,6 @@ function displayImage($imageData) {
                 margin: 10px auto;
             }
         }
-
         @media (max-width: 768px) {
             .testimonials {
                 padding: 40px 10px;
@@ -1763,6 +1785,98 @@ function displayImage($imageData) {
             }
             .testimonial p {
                 font-size: 14px;
+            }
+        }
+        @media (max-width: 1024px) {
+            .welcome-text {
+                text-align: center;
+                padding: 20px;
+            }
+            .welcome-text h1 {
+                font-size: 36px;
+            }
+            .welcome-text p {
+                font-size: 18px;
+            }
+            .welcome-text .learn-more {
+                padding: 12px 24px;
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .welcome-text h1 {
+                font-size: 28px;
+            }
+            .welcome-text p {
+                font-size: 16px;
+            }
+            .welcome-text .learn-more {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .welcome-text h1 {
+                font-size: 24px;
+            }
+            .welcome-text p {
+                font-size: 14px;
+            }
+            .welcome-text .learn-more {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 480px) {
+            .timeline ul::before {
+                width: 2px; /* Reduce the width of the white line for mobile view */
+            }
+        }
+        @media (max-width: 480px) {
+            .timeline ul {
+                padding: 0;
+                gap: 1.5rem; /* Reduce gap for better spacing */
+            }
+
+            .timeline ul li {
+                width: 95%; /* Use more screen width */
+                margin: 0 auto; /* Center items */
+            }
+
+            .timeline ul li .date {
+                font-size: 12px; /* Adjust font size for better readability */
+                padding: 0.5rem; /* Reduce padding */
+            }
+
+            .timeline ul li .title {
+                font-size: 14px; /* Adjust title font size */
+                padding: 0.5rem; /* Reduce padding */
+            }
+
+            .timeline ul li .descr {
+                font-size: 12px; /* Adjust description font size */
+                line-height: 1.4; /* Improve readability */
+                padding: 0.5rem; /* Reduce padding */
+            }
+
+            .timeline ul::before {
+                width: 1px; /* Further reduce the white line width */
+            }
+        }
+        @media (max-width: 480px) {
+            .timeline ul li .title {
+                font-size: 16px; /* Slightly larger font for better readability */
+                line-height: 1.4; /* Improve spacing */
+                padding: 0.5rem; /* Adjust padding */
+                text-align: center; /* Center-align the title */
+            }
+
+            .timeline ul li .descr {
+                font-size: 14px; /* Slightly larger font for better readability */
+                line-height: 1.5; /* Improve spacing */
+                padding: 0.5rem; /* Adjust padding */
+                text-align: justify; /* Justify text for better alignment */
             }
         }
     </style>
