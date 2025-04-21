@@ -1727,6 +1727,44 @@ function displayImage($imageData) {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        @media (max-width: 1024px) {
+            .testimonials-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .testimonial {
+                max-width: 90%;
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .testimonials {
+                padding: 40px 10px;
+            }
+            .testimonial {
+                padding: 1.5em 1em;
+            }
+            .testimonial h3 {
+                font-size: 18px;
+            }
+            .testimonial p {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .testimonial {
+                max-width: 100%;
+                padding: 1em;
+            }
+            .testimonial h3 {
+                font-size: 16px;
+            }
+            .testimonial p {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1985,11 +2023,6 @@ function displayImage($imageData) {
                 <div class="title"><span class="icon"></span>Community Programs</div>
                 <div class="descr">Introduction of the first community programs aimed at improving the quality of life for residents.</div>
             </li>
-            <li style="--accent-color:#E24A68">
-                <div class="date">2010</div>
-                <div class="title"><span class="icon"></span>E-Governance Services</div>
-                <div class="descr">Launch of the e-governance services, making it easier for residents to access important information and services.</div>
-            </li>
             <li style="--accent-color:#1B5F8C">
                 <div class="date">2020</div>
                 <div class="title"><span class="icon"></span>Infrastructure Developments</div>
@@ -2006,14 +2039,24 @@ function displayImage($imageData) {
                 <div class="descr">Initiation of the Green Barangay project to promote environmental sustainability.</div>
             </li>
             <li style="--accent-color:#FBCA3E">
-                <div class="date">2022</div>
-                <div class="title"><span class="icon"></span>Health and Wellness Program</div>
-                <div class="descr">Launch of the Barangay Health and Wellness Program to improve community health.</div>
+                <div class="date">2023</div>
+                <div class="title"><span class="icon"></span>MIRACULOUS PILGRIM IMAGE OF OUR LADY OF THE VISITATION OF GUIBANG.</div>
+                <div class="descr">The miraculous image of Our Lady of the Visitation of Guibang was brought to Barangay District 1, drawing hundreds of devotees for a solemn celebration of faith and unity.</div>
             </li>
             <li style="--accent-color:#E24A68">
                 <div class="date">2023</div>
-                <div class="title"><span class="icon"></span>Learning Center</div>
-                <div class="descr">Opening of the new Barangay Learning Center to provide educational resources for all ages.</div>
+                <div class="title"><span class="icon"></span>3RD BAYANIHAN FESTIVAL 2023</div>
+                <div class="descr">The 3rd Bayanihan Festival celebrated the spirit of community and cooperation with cultural performances, games, and activities that highlighted the rich traditions of Barangay District 1.</div>
+            </li>
+            <li style="--accent-color:#E24A68">
+                <div class="date">2025</div>
+                <div class="title"><span class="icon"></span>E-Governance Services</div>
+                <div class="descr">Launch of the e-governance services, making it easier for residents to access important information and services.</div>
+            </li>
+            <li style="--accent-color:#FFD700">
+                <div class="date">2025</div>
+                <div class="title"><span class="icon"></span>Implementation of IBIM-GIS</div>
+                <div class="descr">The IBIM-GIS (Integrated Barangay Information Management and Geographic Information System) was implemented to enhance data management, improve decision-making, and provide efficient services to the community through advanced geographic and information technologies.</div>
             </li>
         </ul>
     </div>
