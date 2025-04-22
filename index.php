@@ -1462,8 +1462,8 @@ function displayImage($imageData) {
         .chatbot-icon {
             position: fixed;
             bottom: 20px;
-            right: 40px; /* Adjusted for better alignment */
-            background-color: #FFD700;
+            right: 40px;
+            background: linear-gradient(135deg, #FFD700, #FFC107);
             color: #153D7D;
             width: 70px;
             height: 70px;
@@ -1488,9 +1488,9 @@ function displayImage($imageData) {
             content: "Chat Me!";
             position: absolute;
             top: -40px;
-            left: 50%; /* Centered alignment */
+            left: 50%;
             transform: translateX(-50%);
-            background-color: #153D7D;
+            background: #153D7D;
             color: #FFD700;
             padding: 5px;
             border-radius: 5px;
@@ -1505,6 +1505,17 @@ function displayImage($imageData) {
             animation: pulse 1.5s infinite;
         }
 
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
         /* Chat Modal Styles */
         .chat-modal {
             display: none;
