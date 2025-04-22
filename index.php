@@ -179,6 +179,11 @@ function displayImage($imageData) {
                 margin-right: 10px; /* Move to the left side of the logo */
                 z-index: 1001; /* Ensure the toggle button stays on top */
             }
+            .navbar ul li a {
+                text-align: center; /* Center-align text */
+                margin: 0 auto; /* Center the link horizontally */
+                display: block; /* Ensure block-level for proper centering */
+            }
         }
         @media (max-width: 480px) {
             header .logo img {
@@ -194,6 +199,24 @@ function displayImage($imageData) {
                 font-size: 14px;
                 padding: 8px 10px;
             }
+        }
+        .navbar ul li {
+            display: block;
+            margin: 10px 0; /* Add spacing between items */
+            text-align: center; /* Center-align text */
+        }
+
+        .navbar ul li a {
+            font-size: 16px; /* Adjust font size for better readability */
+            padding: 12px 20px; /* Add padding for touch-friendly design */
+            border-radius: 5px; /* Add rounded corners */
+            background-color: rgba(255, 255, 255, 0.1); /* Add subtle background */
+            transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+        }
+
+        .navbar ul li a:hover {
+            background-color: #FFD700; /* Highlight background on hover */
+            color: #153D7D; /* Change text color on hover */
         }
                 
         /* Hero Section */
@@ -1297,7 +1320,6 @@ function displayImage($imageData) {
         .close-modal-health:hover {
             background-color: #ff4a42;
         }
-        /* Emergency Contacts Modal Styles */
         .modal-emergency {
             display: none;
             position: fixed;
