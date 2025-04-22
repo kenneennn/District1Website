@@ -5,23 +5,33 @@
             "questions": [
                 {
                     "question": "How do I get a barangay clearance?",
-                    "answer": "You can apply for a barangay clearance through the Barangay E-Governance System. Fill out the application form, upload the required documents, and pay the processing fee in person at the barangay hall. Once approved, you can pick it up at the barangay hall."
+                    "answer": "You can apply for a barangay clearance through the Barangay E-Governance System. Fill out the application form, upload the required documents, and pay the processing fee in person at the barangay hall. Once approved, you can pick it up at the barangay hall.",
+                    "tagalog_question": "Paano ako makakakuha ng barangay clearance?",
+                    "tagalog_answer": "Maaari kang mag-apply para sa barangay clearance sa pamamagitan ng Barangay E-Governance System. Punan ang application form, i-upload ang mga kinakailangang dokumento, at bayaran ang processing fee sa barangay hall. Kapag naaprubahan, maaari mo itong kunin sa barangay hall."
                 },
                 {
                     "question": "What are the requirements for a barangay clearance?",
-                    "answer": "Requirements include:\n\n- Valid ID (uploaded as a scanned copy)\n- Proof of residence (uploaded as a scanned copy of a utility bill, lease agreement, etc.)\n- Payment for the processing fee must be made in person at the barangay hall."
+                    "answer": "Requirements include:\n\n- Valid ID (uploaded as a scanned copy)\n- Proof of residence (uploaded as a scanned copy of a utility bill, lease agreement, etc.)\n- Payment for the processing fee must be made in person at the barangay hall.",
+                    "tagalog_question": "Ano ang mga kinakailangan para sa barangay clearance?",
+                    "tagalog_answer": "Ang mga kinakailangan ay:\n\n- Valid ID (i-upload bilang scanned copy)\n- Patunay ng paninirahan (i-upload bilang scanned copy ng utility bill, lease agreement, atbp.)\n- Ang bayad para sa processing fee ay kailangang bayaran nang personal sa barangay hall."
                 },
                 {
                     "question": "How much is the fee for a barangay clearance?",
-                    "answer": "The fee is displayed in the Barangay E-Governance System during the application process. It typically ranges from ₱50 to ₱200, depending on your barangay’s ordinance. Payment must be made in person at the barangay hall."
+                    "answer": "The fee is displayed in the Barangay E-Governance System during the application process. It typically ranges from ₱50 to ₱200, depending on your barangay’s ordinance. Payment must be made in person at the barangay hall.",
+                    "tagalog_question": "Magkano ang bayad para sa barangay clearance?",
+                    "tagalog_answer": "Ang bayad ay makikita sa Barangay E-Governance System habang nag-aapply. Karaniwan itong nasa pagitan ng ₱50 hanggang ₱200, depende sa ordinansa ng inyong barangay. Kailangang bayaran ito nang personal sa barangay hall."
                 },
                 {
                     "question": "How long does it take to process a barangay clearance?",
-                    "answer": "Processing usually takes 1–2 business days. You will receive a notification in the email once your clearance is ready for pickup."
+                    "answer": "Processing usually takes 1–2 business days. You will receive a notification in the email once your clearance is ready for pickup.",
+                    "tagalog_question": "Gaano katagal ang proseso para sa barangay clearance?",
+                    "tagalog_answer": "Karaniwang tumatagal ng 1–2 araw ng trabaho ang proseso. Makakatanggap ka ng abiso sa email kapag handa na ang iyong clearance para kunin."
                 },
                 {
                     "question": "Can I apply for a barangay clearance online?",
-                    "answer": "Yes, you can apply through the Barangay E-Governance System. Visit the official website to start the application."
+                    "answer": "Yes, you can apply through the Barangay E-Governance System. Visit the official website to start the application.",
+                    "tagalog_question": "Maaari ba akong mag-apply para sa barangay clearance online?",
+                    "tagalog_answer": "Oo, maaari kang mag-apply sa pamamagitan ng Barangay E-Governance System. Bisitahin ang opisyal na website upang simulan ang aplikasyon."
                 }
             ]
         },
@@ -30,19 +40,27 @@
             "questions": [
                 {
                     "question": "How do I file a complaint in the barangay?",
-                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Complaints' section. Fill out the complaint form, attach any supporting documents, and submit your report. You will be notified of the next steps through the system."
+                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Complaints' section. Fill out the complaint form, attach any supporting documents, and submit your report. You will be notified of the next steps through the system.",
+                    "tagalog_question": "Paano ako maghahain ng reklamo sa barangay?",
+                    "tagalog_answer": "Mag-log in sa Barangay E-Governance System at pumunta sa seksyong 'Reklamo'. Punan ang form ng reklamo, ilakip ang anumang mga sumusuportang dokumento, at isumite ang iyong ulat. Ipapabatid sa iyo ang mga susunod na hakbang sa pamamagitan ng system."
                 },
                 {
                     "question": "Where can I report noise disturbances in my neighborhood?",
-                    "answer": "Use the Barangay E-Governance System to report noise disturbances. Go to the 'Complaints' section, select 'Noise Disturbance,' and provide the necessary details."
+                    "answer": "Use the Barangay E-Governance System to report noise disturbances. Go to the 'Complaints' section, select 'Noise Disturbance,' and provide the necessary details.",
+                    "tagalog_question": "Saan ako maaaring mag-ulat ng ingay sa aking lugar?",
+                    "tagalog_answer": "Gamitin ang Barangay E-Governance System upang mag-ulat ng ingay. Pumunta sa seksyong 'Reklamo', piliin ang 'Ingay', at ibigay ang mga kinakailangang detalye."
                 },
                 {
                     "question": "How do I report illegal activities in my barangay?",
-                    "answer": "Report illegal activities through the Barangay E-Governance System by selecting the 'Incident Reports' section. Provide detailed information and upload any evidence if available."
+                    "answer": "Report illegal activities through the Barangay E-Governance System by selecting the 'Incident Reports' section. Provide detailed information and upload any evidence if available.",
+                    "tagalog_question": "Paano ako mag-uulat ng ilegal na gawain sa aking barangay?",
+                    "tagalog_answer": "Iulat ang mga ilegal na gawain sa pamamagitan ng Barangay E-Governance System sa pamamagitan ng pagpili sa seksyong 'Ulat ng Insidente'. Magbigay ng detalyadong impormasyon at i-upload ang anumang ebidensya kung mayroon."
                 },
                 {
                     "question": "Can I file a complaint online?",
-                    "answer": "Yes, all complaints can be filed online through the Barangay E-Governance System. Access the complaint submission form."
+                    "answer": "Yes, all complaints can be filed online through the Barangay E-Governance System. Access the complaint submission form.",
+                    "tagalog_question": "Maaari ba akong maghain ng reklamo online?",
+                    "tagalog_answer": "Oo, lahat ng reklamo ay maaaring ihain online sa pamamagitan ng Barangay E-Governance System. I-access ang form ng pagsusumite ng reklamo."
                 }
             ]
         },
@@ -51,15 +69,21 @@
             "questions": [
                 {
                     "question": "What should I do during a typhoon?",
-                    "answer": "Log in to the Barangay E-Governance System to access the 'Disaster Preparedness' section. It provides real-time updates, safety tips, and emergency contact numbers."
+                    "answer": "Log in to the Barangay E-Governance System to access the 'Disaster Preparedness' section. It provides real-time updates, safety tips, and emergency contact numbers.",
+                    "tagalog_question": "Ano ang dapat kong gawin sa panahon ng bagyo?",
+                    "tagalog_answer": "Mag-log in sa Barangay E-Governance System upang ma-access ang seksyong 'Kahandaan sa Sakuna'. Nagbibigay ito ng mga real-time na update, mga tip sa kaligtasan, at mga numero ng emergency contact."
                 },
                 {
                     "question": "Where are the barangay evacuation centers?",
-                    "answer": "The list of evacuation centers is available in the 'Emergency Services' section of the Barangay E-Governance System."
+                    "answer": "The list of evacuation centers is available in the 'Emergency Services' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Saan matatagpuan ang mga evacuation center ng barangay?",
+                    "tagalog_answer": "Ang listahan ng mga evacuation center ay makikita sa seksyong 'Serbisyong Pang-emergency' ng Barangay E-Governance System."
                 },
                 {
                     "question": "What are the emergency hotlines?",
-                    "answer": "Emergency hotlines, including the barangay hotline, police, and fire department, are listed in the 'Emergency Contacts' section of the Barangay E-Governance System."
+                    "answer": "Emergency hotlines, including the barangay hotline, police, and fire department, are listed in the 'Emergency Contacts' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga emergency hotline?",
+                    "tagalog_answer": "Ang mga emergency hotline, kabilang ang barangay hotline, pulis, at bumbero, ay nakalista sa seksyong 'Mga Emergency Contact' ng Barangay E-Governance System."
                 }
             ]
         },
@@ -68,15 +92,21 @@
             "questions": [
                 {
                     "question": "Where can I get free medical check-ups?",
-                    "answer": "Free medical check-ups are scheduled through the Barangay E-Governance System. Log in to view available dates and register for an appointment."
+                    "answer": "Free medical check-ups are scheduled through the Barangay E-Governance System. Log in to view available dates and register for an appointment.",
+                    "tagalog_question": "Saan ako makakakuha ng libreng medical check-up?",
+                    "tagalog_answer": "Ang mga libreng medical check-up ay naka-iskedyul sa pamamagitan ng Barangay E-Governance System. Mag-log in upang makita ang mga available na petsa at magparehistro para sa isang appointment."
                 },
                 {
                     "question": "Does the barangay offer free vaccinations?",
-                    "answer": "Yes, free vaccinations are available. Check the schedule and register through the 'Health Services' section of the Barangay E-Governance System."
+                    "answer": "Yes, free vaccinations are available. Check the schedule and register through the 'Health Services' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Nag-aalok ba ang barangay ng libreng bakuna?",
+                    "tagalog_answer": "Oo, may mga libreng bakuna. Tingnan ang iskedyul at magparehistro sa pamamagitan ng seksyong 'Serbisyong Pangkalusugan' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I register for barangay assistance programs?",
-                    "answer": "Register for assistance programs through the Barangay E-Governance System. Navigate to the 'Social Services' section and complete the application form."
+                    "answer": "Register for assistance programs through the Barangay E-Governance System. Navigate to the 'Social Services' section and complete the application form.",
+                    "tagalog_question": "Paano ako magparehistro para sa mga programa ng tulong ng barangay?",
+                    "tagalog_answer": "Magparehistro para sa mga programa ng tulong sa pamamagitan ng Barangay E-Governance System. Pumunta sa seksyong 'Serbisyong Panlipunan' at kumpletuhin ang application form."
                 }
             ]
         },
@@ -85,15 +115,21 @@
             "questions": [
                 {
                     "question": "What are the curfew hours in the barangay?",
-                    "answer": "Curfew hours are listed in the 'Rules & Policies' section of the Barangay E-Governance System."
+                    "answer": "Curfew hours are listed in the 'Rules & Policies' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga oras ng curfew sa barangay?",
+                    "tagalog_answer": "Ang mga oras ng curfew ay nakalista sa seksyong 'Mga Patakaran at Alituntunin' ng Barangay E-Governance System."
                 },
                 {
                     "question": "Is there an ordinance against loud music?",
-                    "answer": "Yes, details about the ordinance are available in the 'Rules & Policies' section of the Barangay E-Governance System."
+                    "answer": "Yes, details about the ordinance are available in the 'Rules & Policies' section of the Barangay E-Governance System.",
+                    "tagalog_question": "May ordinansa ba laban sa malakas na musika?",
+                    "tagalog_answer": "Oo, ang mga detalye tungkol sa ordinansa ay makikita sa seksyong 'Mga Patakaran at Alituntunin' ng Barangay E-Governance System."
                 },
                 {
                     "question": "Are pets allowed in barangay public spaces?",
-                    "answer": "Yes, but specific rules and guidelines are outlined in the 'Rules & Policies' section of the Barangay E-Governance System."
+                    "answer": "Yes, but specific rules and guidelines are outlined in the 'Rules & Policies' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Pinapayagan ba ang mga alagang hayop sa pampublikong lugar ng barangay?",
+                    "tagalog_answer": "Oo, ngunit ang mga partikular na patakaran at alituntunin ay nakasaad sa seksyong 'Mga Patakaran at Alituntunin' ng Barangay E-Governance System."
                 }
             ]
         },
@@ -102,11 +138,15 @@
             "questions": [
                 {
                     "question": "How do I register as a voter in the barangay?",
-                    "answer": "Voter registration can be initiated through the Barangay E-Governance System. Fill out the voter registration form and upload the required documents."
+                    "answer": "Voter registration can be initiated through the Barangay E-Governance System. Fill out the voter registration form and upload the required documents.",
+                    "tagalog_question": "Paano ako magparehistro bilang botante sa barangay?",
+                    "tagalog_answer": "Ang pagpaparehistro ng botante ay maaaring simulan sa pamamagitan ng Barangay E-Governance System. Punan ang form ng pagpaparehistro ng botante at i-upload ang mga kinakailangang dokumento."
                 },
                 {
                     "question": "Where do I vote in the barangay elections?",
-                    "answer": "Your assigned polling station is displayed in the 'Elections' section of the Barangay E-Governance System."
+                    "answer": "Your assigned polling station is displayed in the 'Elections' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Saan ako boboto sa halalan ng barangay?",
+                    "tagalog_answer": "Ang iyong itinalagang polling station ay makikita sa seksyong 'Halalan' ng Barangay E-Governance System."
                 }
             ]
         },
@@ -115,15 +155,21 @@
             "questions": [
                 {
                     "question": "How do I apply for a barangay scholarship?",
-                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Scholarships' section. Fill out the application form and upload the required documents."
+                    "answer": "Log in to the Barangay E-Governance System and navigate to the 'Scholarships' section. Fill out the application form and upload the required documents.",
+                    "tagalog_question": "Paano ako mag-apply para sa isang barangay scholarship?",
+                    "tagalog_answer": "Mag-log in sa Barangay E-Governance System at pumunta sa seksyong 'Scholarships'. Punan ang application form at i-upload ang mga kinakailangang dokumento."
                 },
                 {
                     "question": "What are the requirements for a barangay scholarship?",
-                    "answer": "Requirements include:\n\n- Proof of residency\n- Latest school report card\n- Certificate of indigency (if applicable)"
+                    "answer": "Requirements include:\n\n- Proof of residency\n- Latest school report card\n- Certificate of indigency (if applicable)",
+                    "tagalog_question": "Ano ang mga kinakailangan para sa isang barangay scholarship?",
+                    "tagalog_answer": "Ang mga kinakailangan ay:\n\n- Patunay ng paninirahan\n- Pinakabagong school report card\n- Certificate of indigency (kung naaangkop)"
                 },
                 {
                     "question": "When is the deadline for scholarship applications?",
-                    "answer": "The deadline is announced in the 'Scholarships' section of the Barangay E-Governance System. Check regularly for updates."
+                    "answer": "The deadline is announced in the 'Scholarships' section of the Barangay E-Governance System. Check regularly for updates.",
+                    "tagalog_question": "Kailan ang deadline para sa mga aplikasyon ng scholarship?",
+                    "tagalog_answer": "Ang deadline ay inihahayag sa seksyong 'Scholarships' ng Barangay E-Governance System. Regular na tingnan para sa mga update."
                 }
             ]
         },
@@ -132,15 +178,21 @@
             "questions": [
                 {
                     "question": "Where can I park near the barangay hall?",
-                    "answer": "Designated parking areas are listed in the 'Transportation' section of the Barangay E-Governance System."
+                    "answer": "Designated parking areas are listed in the 'Transportation' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Saan ako maaaring mag-park malapit sa barangay hall?",
+                    "tagalog_answer": "Ang mga itinalagang parking area ay nakalista sa seksyong 'Transportasyon' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I report illegal parking?",
-                    "answer": "Log in to the Barangay E-Governance System and file a report under the 'Transportation' section."
+                    "answer": "Log in to the Barangay E-Governance System and file a report under the 'Transportation' section.",
+                    "tagalog_question": "Paano ako mag-uulat ng ilegal na pag-park?",
+                    "tagalog_answer": "Mag-log in sa Barangay E-Governance System at maghain ng ulat sa ilalim ng seksyong 'Transportasyon'."
                 },
                 {
                     "question": "Are there public transportation routes in the barangay?",
-                    "answer": "Yes, public transportation routes and schedules are available in the 'Transportation' section of the Barangay E-Governance System."
+                    "answer": "Yes, public transportation routes and schedules are available in the 'Transportation' section of the Barangay E-Governance System.",
+                    "tagalog_question": "May mga ruta ba ng pampublikong transportasyon sa barangay?",
+                    "tagalog_answer": "Oo, ang mga ruta at iskedyul ng pampublikong transportasyon ay makikita sa seksyong 'Transportasyon' ng Barangay E-Governance System."
                 }
             ]
         },
@@ -149,15 +201,21 @@
             "questions": [
                 {
                     "question": "How do I join the barangay tree-planting program?",
-                    "answer": "Register through the 'Environmental Programs' section of the Barangay E-Governance System. Event details and schedules are provided there."
+                    "answer": "Register through the 'Environmental Programs' section of the Barangay E-Governance System. Event details and schedules are provided there.",
+                    "tagalog_question": "Paano ako sasali sa programa ng pagtatanim ng puno ng barangay?",
+                    "tagalog_answer": "Magparehistro sa pamamagitan ng seksyong 'Mga Programang Pangkapaligiran' ng Barangay E-Governance System. Ang mga detalye ng kaganapan at iskedyul ay ibinibigay doon."
                 },
                 {
                     "question": "What are the barangay's waste segregation guidelines?",
-                    "answer": "Waste segregation guidelines are available in the 'Environmental Programs' section of the Barangay E-Governance System."
+                    "answer": "Waste segregation guidelines are available in the 'Environmental Programs' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga patnubay sa paghihiwalay ng basura ng barangay?",
+                    "tagalog_answer": "Ang mga patnubay sa paghihiwalay ng basura ay makikita sa seksyong 'Mga Programang Pangkapaligiran' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I report illegal dumping of waste?",
-                    "answer": "File a report in the 'Environmental Programs' section of the Barangay E-Governance System. Provide details and upload evidence if available."
+                    "answer": "File a report in the 'Environmental Programs' section of the Barangay E-Governance System. Provide details and upload evidence if available.",
+                    "tagalog_question": "Paano ako mag-uulat ng ilegal na pagtatapon ng basura?",
+                    "tagalog_answer": "Maghain ng ulat sa seksyong 'Mga Programang Pangkapaligiran' ng Barangay E-Governance System. Magbigay ng mga detalye at i-upload ang ebidensya kung mayroon."
                 }
             ]
         },
@@ -166,15 +224,21 @@
             "questions": [
                 {
                     "question": "What are the upcoming cultural events in the barangay?",
-                    "answer": "Check the 'Cultural Events' section of the Barangay E-Governance System for a list of upcoming events."
+                    "answer": "Check the 'Cultural Events' section of the Barangay E-Governance System for a list of upcoming events.",
+                    "tagalog_question": "Ano ang mga paparating na kultural na kaganapan sa barangay?",
+                    "tagalog_answer": "Tingnan ang seksyong 'Mga Kultural na Kaganapan' ng Barangay E-Governance System para sa listahan ng mga paparating na kaganapan."
                 },
                 {
                     "question": "How do I participate in barangay festivals?",
-                    "answer": "Register for festivals through the 'Cultural Events' section of the Barangay E-Governance System."
+                    "answer": "Register for festivals through the 'Cultural Events' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ako makikilahok sa mga pagdiriwang ng barangay?",
+                    "tagalog_answer": "Magparehistro para sa mga pagdiriwang sa pamamagitan ng seksyong 'Mga Kultural na Kaganapan' ng Barangay E-Governance System."
                 },
                 {
                     "question": "Are there workshops for traditional crafts?",
-                    "answer": "Yes, details about workshops are available in the 'Cultural Events' section of the Barangay E-Governance System."
+                    "answer": "Yes, details about workshops are available in the 'Cultural Events' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Mayroon bang mga workshop para sa mga tradisyunal na sining?",
+                    "tagalog_answer": "Oo, ang mga detalye tungkol sa mga workshop ay makikita sa seksyong 'Mga Kultural na Kaganapan' ng Barangay E-Governance System."
                 }
             ]
         },
@@ -183,99 +247,147 @@
             "questions": [
                 {
                     "question": "What are the operating hours of the barangay hall?",
-                    "answer": "The barangay hall operates from 8:00 AM to 5:00 PM, Monday to Friday, excluding public holidays."
+                    "answer": "The barangay hall operates from 8:00 AM to 5:00 PM, Monday to Friday, excluding public holidays.",
+                    "tagalog_question": "Ano ang mga oras ng operasyon ng barangay hall?",
+                    "tagalog_answer": "Ang barangay hall ay bukas mula 8:00 AM hanggang 5:00 PM, Lunes hanggang Biyernes, maliban sa mga pampublikong holiday."
                 },
                 {
                     "question": "How can I contact the barangay office?",
-                    "answer": "You can contact the barangay office through the hotline number listed in the 'Emergency Contacts' section of the Barangay E-Governance System."
+                    "answer": "You can contact the barangay office through the hotline number listed in the 'Emergency Contacts' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ko makokontak ang opisina ng barangay?",
+                    "tagalog_answer": "Maaari mong kontakin ang opisina ng barangay sa pamamagitan ng hotline number na nakalista sa seksyong 'Mga Emergency Contact' ng Barangay E-Governance System."
                 },
                 {
                     "question": "Where is the barangay hall located?",
-                    "answer": "The barangay hall is located at the center of Barangay District 1, near the main plaza."
+                    "answer": "The barangay hall is located at the center of Barangay District 1, near the main plaza.",
+                    "tagalog_question": "Saan matatagpuan ang barangay hall?",
+                    "tagalog_answer": "Ang barangay hall ay matatagpuan sa gitna ng Barangay District 1, malapit sa pangunahing plaza."
                 },
                 {
                     "question": "How do I request a meeting with the barangay chairman?",
-                    "answer": "To request a meeting, log in to the Barangay E-Governance System and submit a request under the 'Appointments' section."
+                    "answer": "To request a meeting, log in to the Barangay E-Governance System and submit a request under the 'Appointments' section.",
+                    "tagalog_question": "Paano ako magre-request ng meeting sa barangay chairman?",
+                    "tagalog_answer": "Upang mag-request ng meeting, mag-log in sa Barangay E-Governance System at mag-submit ng request sa ilalim ng seksyong 'Appointments'."
                 },
                 {
                     "question": "What is the process for requesting barangay assistance?",
-                    "answer": "Log in to the Barangay E-Governance System, navigate to the 'Social Services' section, and fill out the assistance request form."
+                    "answer": "Log in to the Barangay E-Governance System, navigate to the 'Social Services' section, and fill out the assistance request form.",
+                    "tagalog_question": "Ano ang proseso para sa paghingi ng tulong ng barangay?",
+                    "tagalog_answer": "Mag-log in sa Barangay E-Governance System, pumunta sa seksyong 'Serbisyong Panlipunan', at punan ang form ng kahilingan para sa tulong."
                 },
                 {
                     "question": "How do I report a lost item?",
-                    "answer": "You can report a lost item through the 'Incident Reports' section of the Barangay E-Governance System. Provide details and upload any supporting evidence."
+                    "answer": "You can report a lost item through the 'Incident Reports' section of the Barangay E-Governance System. Provide details and upload any supporting evidence.",
+                    "tagalog_question": "Paano ako mag-uulat ng nawawalang bagay?",
+                    "tagalog_answer": "Maaari kang mag-ulat ng nawawalang bagay sa pamamagitan ng seksyong 'Ulat ng Insidente' ng Barangay E-Governance System. Magbigay ng mga detalye at i-upload ang anumang sumusuportang ebidensya."
                 },
                 {
                     "question": "What are the barangay's public holidays?",
-                    "answer": "Public holidays are listed in the 'Announcements' section of the Barangay E-Governance System."
+                    "answer": "Public holidays are listed in the 'Announcements' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga pampublikong holiday ng barangay?",
+                    "tagalog_answer": "Ang mga pampublikong holiday ay nakalista sa seksyong 'Mga Anunsyo' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I volunteer for barangay programs?",
-                    "answer": "Visit the 'Volunteer Programs' section of the Barangay E-Governance System to view available opportunities and register."
+                    "answer": "Visit the 'Volunteer Programs' section of the Barangay E-Governance System to view available opportunities and register.",
+                    "tagalog_question": "Paano ako magboboluntaryo para sa mga programa ng barangay?",
+                    "tagalog_answer": "Bisitahin ang seksyong 'Mga Programang Boluntaryo' ng Barangay E-Governance System upang makita ang mga available na pagkakataon at magparehistro."
                 },
                 {
                     "question": "What is the barangay's policy on community events?",
-                    "answer": "Community event policies are outlined in the 'Rules & Policies' section of the Barangay E-Governance System."
+                    "answer": "Community event policies are outlined in the 'Rules & Policies' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang patakaran ng barangay sa mga kaganapan sa komunidad?",
+                    "tagalog_answer": "Ang mga patakaran sa kaganapan sa komunidad ay nakasaad sa seksyong 'Mga Patakaran at Alituntunin' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I provide feedback to the barangay office?",
-                    "answer": "Feedback can be submitted through the 'Feedback' section of the Barangay E-Governance System."
+                    "answer": "Feedback can be submitted through the 'Feedback' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ako magbibigay ng feedback sa opisina ng barangay?",
+                    "tagalog_answer": "Ang feedback ay maaaring isumite sa pamamagitan ng seksyong 'Feedback' ng Barangay E-Governance System."
                 },
                 {
                     "question": "What is the barangay's vision and mission?",
-                    "answer": "The barangay's vision and mission are detailed in the 'About Us' section of the Barangay E-Governance System."
+                    "answer": "The barangay's vision and mission are detailed in the 'About Us' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang vision at mission ng barangay?",
+                    "tagalog_answer": "Ang vision at mission ng barangay ay detalyado sa seksyong 'Tungkol sa Amin' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I access the barangay's annual reports?",
-                    "answer": "Annual reports are available in the 'Transparency' section of the Barangay E-Governance System."
+                    "answer": "Annual reports are available in the 'Transparency' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ko maa-access ang mga taunang ulat ng barangay?",
+                    "tagalog_answer": "Ang mga taunang ulat ay makikita sa seksyong 'Transparency' ng Barangay E-Governance System."
                 },
                 {
                     "question": "What are the barangay's disaster preparedness plans?",
-                    "answer": "Disaster preparedness plans are outlined in the 'Disaster Preparedness' section of the Barangay E-Governance System."
+                    "answer": "Disaster preparedness plans are outlined in the 'Disaster Preparedness' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga plano ng barangay para sa kahandaan sa sakuna?",
+                    "tagalog_answer": "Ang mga plano para sa kahandaan sa sakuna ay nakasaad sa seksyong 'Kahandaan sa Sakuna' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I participate in barangay clean-up drives?",
-                    "answer": "Register for clean-up drives through the 'Environmental Programs' section of the Barangay E-Governance System."
+                    "answer": "Register for clean-up drives through the 'Environmental Programs' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ako makikilahok sa mga clean-up drive ng barangay?",
+                    "tagalog_answer": "Magparehistro para sa mga clean-up drive sa pamamagitan ng seksyong 'Mga Programang Pangkapaligiran' ng Barangay E-Governance System."
                 },
                 {
                     "question": "What is the barangay's policy on noise disturbances?",
-                    "answer": "The policy on noise disturbances is detailed in the 'Rules & Policies' section of the Barangay E-Governance System."
+                    "answer": "The policy on noise disturbances is detailed in the 'Rules & Policies' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang patakaran ng barangay sa mga ingay?",
+                    "tagalog_answer": "Ang patakaran sa mga ingay ay detalyado sa seksyong 'Mga Patakaran at Alituntunin' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I apply for a barangay ID?",
-                    "answer": "Apply for a barangay ID through the 'Barangay Services' section of the Barangay E-Governance System. Fill out the application form and upload the required documents."
+                    "answer": "Apply for a barangay ID through the 'Barangay Services' section of the Barangay E-Governance System. Fill out the application form and upload the required documents.",
+                    "tagalog_question": "Paano ako mag-aapply para sa barangay ID?",
+                    "tagalog_answer": "Mag-apply para sa barangay ID sa pamamagitan ng seksyong 'Mga Serbisyo ng Barangay' ng Barangay E-Governance System. Punan ang application form at i-upload ang mga kinakailangang dokumento."
                 },
                 {
                     "question": "What are the barangay's initiatives for senior citizens?",
-                    "answer": "Initiatives for senior citizens are listed in the 'Social Services' section of the Barangay E-Governance System."
+                    "answer": "Initiatives for senior citizens are listed in the 'Social Services' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang mga inisyatiba ng barangay para sa mga senior citizen?",
+                    "tagalog_answer": "Ang mga inisyatiba para sa mga senior citizen ay nakalista sa seksyong 'Serbisyong Panlipunan' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I register for barangay sports programs?",
-                    "answer": "Register for sports programs through the 'Cultural Events' section of the Barangay E-Governance System."
+                    "answer": "Register for sports programs through the 'Cultural Events' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Paano ako magparehistro para sa mga programa ng sports ng barangay?",
+                    "tagalog_answer": "Magparehistro para sa mga programa ng sports sa pamamagitan ng seksyong 'Mga Kultural na Kaganapan' ng Barangay E-Governance System."
                 },
                 {
                     "question": "What is the barangay's policy on waste management?",
-                    "answer": "The waste management policy is outlined in the 'Environmental Programs' section of the Barangay E-Governance System."
+                    "answer": "The waste management policy is outlined in the 'Environmental Programs' section of the Barangay E-Governance System.",
+                    "tagalog_question": "Ano ang patakaran ng barangay sa pamamahala ng basura?",
+                    "tagalog_answer": "Ang patakaran sa pamamahala ng basura ay nakasaad sa seksyong 'Mga Programang Pangkapaligiran' ng Barangay E-Governance System."
                 },
                 {
                     "question": "How do I reset my password?",
-                    "answer": "To reset your password, click on the 'Forgot Password' link on the login page and follow the instructions."
+                    "answer": "To reset your password, click on the 'Forgot Password' link on the login page and follow the instructions.",
+                    "tagalog_question": "Paano ko ire-reset ang aking password?",
+                    "tagalog_answer": "Upang i-reset ang iyong password, i-click ang 'Forgot Password' na link sa login page at sundin ang mga tagubilin."
                 },
                 {
                     "question": "Can I access the system on mobile devices?",
-                    "answer": "Yes, the Barangay E-Governance System is mobile-friendly and can be accessed on smartphones and tablets."
+                    "answer": "Yes, the Barangay E-Governance System is mobile-friendly and can be accessed on smartphones and tablets.",
+                    "tagalog_question": "Maaari ko bang ma-access ang system sa mga mobile device?",
+                    "tagalog_answer": "Oo, ang Barangay E-Governance System ay mobile-friendly at maaaring ma-access sa mga smartphone at tablet."
                 },
                 {
                     "question": "Is my personal information secure in the system?",
-                    "answer": "Yes, the system uses encryption and follows data privacy regulations to ensure your information is secure."
+                    "answer": "Yes, the system uses encryption and follows data privacy regulations to ensure your information is secure.",
+                    "tagalog_question": "Ligtas ba ang aking personal na impormasyon sa system?",
+                    "tagalog_answer": "Oo, ang system ay gumagamit ng encryption at sumusunod sa mga regulasyon sa privacy ng data upang matiyak na ligtas ang iyong impormasyon."
                 },
                 {
                     "question": "What should I do if I encounter an error in the system?",
-                    "answer": "If you encounter an error, please report it through the 'Feedback' section or contact the barangay office for assistance."
+                    "answer": "If you encounter an error, please report it through the 'Feedback' section or contact the barangay office for assistance.",
+                    "tagalog_question": "Ano ang dapat kong gawin kung makakaranas ako ng error sa system?",
+                    "tagalog_answer": "Kung makakaranas ka ng error, mangyaring i-report ito sa pamamagitan ng seksyong 'Feedback' o kontakin ang opisina ng barangay para sa tulong."
                 },
                 {
                     "question": "Can I use the system outside barangay operating hours?",
-                    "answer": "Yes, the Barangay E-Governance System is available 24/7 for your convenience."
+                    "answer": "Yes, the Barangay E-Governance System is available 24/7 for your convenience.",
+                    "tagalog_question": "Maaari ko bang gamitin ang system sa labas ng oras ng operasyon ng barangay?",
+                    "tagalog_answer": "Oo, ang Barangay E-Governance System ay available 24/7 para sa iyong kaginhawaan."
                 }
             ]
         },
@@ -284,35 +396,51 @@
             "questions": [
                 {
                     "question": "Hello",
-                    "answer": "Hi there! How can I assist you today?"
+                    "answer": "Hi there! How can I assist you today?",
+                    "tagalog_question": "Kamusta",
+                    "tagalog_answer": "Kamusta! Paano kita matutulungan ngayon?"
                 },
                 {
                     "question": "Hi",
-                    "answer": "Hello! How can I help you?"
+                    "answer": "Hello! How can I help you?",
+                    "tagalog_question": "Hi",
+                    "tagalog_answer": "Hello! Paano kita matutulungan?"
                 },
                 {
                     "question": "Good morning",
-                    "answer": "Good morning! How can I assist you today?"
+                    "answer": "Good morning! How can I assist you today?",
+                    "tagalog_question": "Magandang umaga",
+                    "tagalog_answer": "Magandang umaga! Paano kita matutulungan ngayon?"
                 },
                 {
                     "question": "Good afternoon",
-                    "answer": "Good afternoon! How can I help you?"
+                    "answer": "Good afternoon! How can I help you?",
+                    "tagalog_question": "Magandang hapon",
+                    "tagalog_answer": "Magandang hapon! Paano kita matutulungan?"
                 },
                 {
                     "question": "Good evening",
-                    "answer": "Good evening! How can I assist you?"
+                    "answer": "Good evening! How can I assist you?",
+                    "tagalog_question": "Magandang gabi",
+                    "tagalog_answer": "Magandang gabi! Paano kita matutulungan?"
                 },
                 {
                     "question": "How are you?",
-                    "answer": "I'm just a chatbot, but I'm here to help you with your questions!"
+                    "answer": "I'm just a chatbot, but I'm here to help you with your questions!",
+                    "tagalog_question": "Kamusta ka?",
+                    "tagalog_answer": "Isa lang akong chatbot, pero nandito ako para tulungan ka sa iyong mga tanong!"
                 },
                 {
                     "question": "Thank you",
-                    "answer": "You're welcome! Let me know if there's anything else I can help with."
+                    "answer": "You're welcome! Let me know if there's anything else I can help with.",
+                    "tagalog_question": "Salamat",
+                    "tagalog_answer": "Walang anuman! Ipaalam sa akin kung may iba pa akong maitutulong."
                 },
                 {
                     "question": "Bye",
-                    "answer": "Goodbye! Have a great day!"
+                    "answer": "Goodbye! Have a great day!",
+                    "tagalog_question": "Paalam",
+                    "tagalog_answer": "Paalam! Magandang araw!"
                 }
             ]
         },
@@ -321,15 +449,21 @@
             "questions": [
                 {
                     "question": "What is a Barangay Clearance?",
-                    "answer": "A Barangay Clearance is an official document issued by the barangay certifying that an individual is a resident of the barangay and has no pending issues or complaints."
+                    "answer": "A Barangay Clearance is an official document issued by the barangay certifying that an individual is a resident of the barangay and has no pending issues or complaints.",
+                    "tagalog_question": "Ano ang Barangay Clearance?",
+                    "tagalog_answer": "Ang Barangay Clearance ay isang opisyal na dokumento na inisyu ng barangay na nagpapatunay na ang isang indibidwal ay residente ng barangay at walang mga nakabinbing isyu o reklamo."
                 },
                 {
                     "question": "How do I apply for a Barangay Clearance?",
-                    "answer": "You can apply for a Barangay Clearance by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form, provide the necessary documents, and pay the required fee."
+                    "answer": "You can apply for a Barangay Clearance by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form, provide the necessary documents, and pay the required fee.",
+                    "tagalog_question": "Paano ako mag-aapply para sa Barangay Clearance?",
+                    "tagalog_answer": "Maaari kang mag-apply para sa Barangay Clearance sa pamamagitan ng pagbisita sa barangay hall o sa pamamagitan ng Barangay E-Governance System. Punan ang application form, ibigay ang mga kinakailangang dokumento, at bayaran ang kinakailangang bayad."
                 },
                 {
                     "question": "What are the requirements for a Barangay Clearance?",
-                    "answer": "Requirements include a valid ID, proof of residence, and payment of the processing fee."
+                    "answer": "Requirements include a valid ID, proof of residence, and payment of the processing fee.",
+                    "tagalog_question": "Ano ang mga kinakailangan para sa Barangay Clearance?",
+                    "tagalog_answer": "Ang mga kinakailangan ay isang valid ID, patunay ng paninirahan, at pagbabayad ng processing fee."
                 }
             ]
         },
@@ -338,15 +472,21 @@
             "questions": [
                 {
                     "question": "What is a Certificate of Indigency?",
-                    "answer": "A Certificate of Indigency is a document issued by the barangay to certify that an individual or family is financially incapable and in need of assistance."
+                    "answer": "A Certificate of Indigency is a document issued by the barangay to certify that an individual or family is financially incapable and in need of assistance.",
+                    "tagalog_question": "Ano ang Certificate of Indigency?",
+                    "tagalog_answer": "Ang Certificate of Indigency ay isang dokumento na inisyu ng barangay upang patunayan na ang isang indibidwal o pamilya ay walang kakayahang pinansyal at nangangailangan ng tulong."
                 },
                 {
                     "question": "How do I apply for a Certificate of Indigency?",
-                    "answer": "Visit the barangay hall or use the Barangay E-Governance System to apply. Submit the required documents and fill out the application form."
+                    "answer": "Visit the barangay hall or use the Barangay E-Governance System to apply. Submit the required documents and fill out the application form.",
+                    "tagalog_question": "Paano ako mag-aapply para sa Certificate of Indigency?",
+                    "tagalog_answer": "Bisitahin ang barangay hall o gamitin ang Barangay E-Governance System upang mag-apply. Isumite ang mga kinakailangang dokumento at punan ang application form."
                 },
                 {
                     "question": "What are the requirements for a Certificate of Indigency?",
-                    "answer": "Requirements include a valid ID, proof of residence, and a letter of request stating the purpose of the certificate."
+                    "answer": "Requirements include a valid ID, proof of residence, and a letter of request stating the purpose of the certificate.",
+                    "tagalog_question": "Ano ang mga kinakailangan para sa Certificate of Indigency?",
+                    "tagalog_answer": "Ang mga kinakailangan ay isang valid ID, patunay ng paninirahan, at isang liham ng kahilingan na nagsasaad ng layunin ng sertipiko."
                 }
             ]
         },
@@ -355,15 +495,21 @@
             "questions": [
                 {
                     "question": "What is a Certificate of Residency?",
-                    "answer": "A Certificate of Residency is an official document issued by the barangay certifying that an individual is a resident of the barangay."
+                    "answer": "A Certificate of Residency is an official document issued by the barangay certifying that an individual is a resident of the barangay.",
+                    "tagalog_question": "Ano ang Certificate of Residency?",
+                    "tagalog_answer": "Ang Certificate of Residency ay isang opisyal na dokumento na inisyu ng barangay na nagpapatunay na ang isang indibidwal ay residente ng barangay."
                 },
                 {
                     "question": "How do I apply for a Certificate of Residency?",
-                    "answer": "You can apply for a Certificate of Residency by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form and provide the necessary documents."
+                    "answer": "You can apply for a Certificate of Residency by visiting the barangay hall or through the Barangay E-Governance System. Fill out the application form and provide the necessary documents.",
+                    "tagalog_question": "Paano ako mag-aapply para sa Certificate of Residency?",
+                    "tagalog_answer": "Maaari kang mag-apply para sa Certificate of Residency sa pamamagitan ng pagbisita sa barangay hall o sa pamamagitan ng Barangay E-Governance System. Punan ang application form at ibigay ang mga kinakailangang dokumento."
                 },
                 {
                     "question": "What are the requirements for a Certificate of Residency?",
-                    "answer": "Requirements include a valid ID and proof of residence."
+                    "answer": "Requirements include a valid ID and proof of residence.",
+                    "tagalog_question": "Ano ang mga kinakailangan para sa Certificate of Residency?",
+                    "tagalog_answer": "Ang mga kinakailangan ay isang valid ID at patunay ng paninirahan."
                 }
             ]
         }

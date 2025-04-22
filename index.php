@@ -1838,18 +1838,15 @@ function displayImage($imageData) {
                 font-size: 12px; /* Adjust font size for better readability */
                 padding: 0.5rem; /* Reduce padding */
             }
-
             .timeline ul li .title {
                 font-size: 14px; /* Adjust title font size */
                 padding: 0.5rem; /* Reduce padding */
             }
-
             .timeline ul li .descr {
                 font-size: 12px; /* Adjust description font size */
                 line-height: 1.4; /* Improve readability */
                 padding: 0.5rem; /* Reduce padding */
             }
-
             .timeline ul::before {
                 width: 1px; /* Further reduce the white line width */
             }
@@ -1885,9 +1882,9 @@ function displayImage($imageData) {
         <ul>
             <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="#e-governance"><i class="fas fa-cogs"></i> E-Governance</a></li>
-            <li><a href="#carousel"><i class="fas fa-images"></i> Community Highlights</a></li>
+            <li><a href="#carousel"><i class="fas fa-images"></i> Barangay Community Highlights</a></li>
             <li><a href="#barangay-officials"><i class="fas fa-users"></i> Barangay Officials</a></li>
-            <li><a href="#timeline"><i class="fas fa-history"></i> Our Journey</a></li>
+            <li><a href="#timeline"><i class="fas fa-history"></i> Barangay Journey</a></li>
         </ul>
     </nav>
 </header>
@@ -2115,7 +2112,7 @@ function displayImage($imageData) {
     <!-- Timeline Section -->
 <section class="timeline" id="timeline">
     <div class="container">
-        <h2>Our Journey</h2>
+        <h2>Barangay Journey</h2>
         <ul>
             <li style="--accent-color:#41516C">
                 <div class="date">1990</div>
@@ -2401,7 +2398,8 @@ async function sendMessage() {
         const { exactMatch, suggestions } = findRelevantQuestion(message, faqs, language);
 
         if (exactMatch) {
-            setTimeout(() => appendMessage(exactMatch, "bot"), 500);
+            const response = language === 'tagalog' ? exactMatch.tagalog_answer : exactMatch.answer;
+            setTimeout(() => appendMessage(response, "bot"), 500);
         } else if (suggestions.length > 0) {
             const suggestionText = language === 'tagalog'
                 ? `Pasensya na, wala akong eksaktong sagot. Baka ang ibig mong sabihin ay:\n${suggestions.join("\n")}`
@@ -2442,8 +2440,8 @@ async function autofillSuggestions() {
 
         faqs.categories.forEach(category => {
             category.questions.forEach(q => {
-                if (q.question.toLowerCase().includes(query)) {
-                    suggestions.push(q.question);
+                if (q.question.toLowerCase().includes(query) || q.tagalog_question.toLowerCase().includes(query)) {
+                    suggestions.push(`${q.question} / ${q.tagalog_question}`);
                 }
             });
         });

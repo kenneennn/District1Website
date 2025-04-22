@@ -1,6 +1,6 @@
 <?php
 include 'db_connection.php';
-$sql = "SELECT * FROM tblAnnouncement ORDER BY DatePosted DESC";
+$sql = "SELECT * FROM tblAnnouncement WHERE DateEnded IS NULL OR DateEnded >= CURDATE() ORDER BY DatePosted DESC";
 $result = mysqli_query($conn, $sql);
 $announcements = $result && mysqli_num_rows($result) > 0 ? mysqli_fetch_all($result, MYSQLI_ASSOC) : [];
 
@@ -252,7 +252,7 @@ function displayImage($imageData) {
 
 <div class="back-button-container">
     <a href="index.php" class="back-button">
-        <span class="material-icons">arrow_back</span>Home
+        <span class="material-icons">home</span>Back to Home
     </a>
 </div>
 
