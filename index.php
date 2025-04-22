@@ -525,9 +525,11 @@ function displayImage($imageData) {
         }
        /* E-Governance Section */
        .e-governance {
-        background: linear-gradient(135deg, #f8f9fc, #e0e0e0); /* Add gradient background */
-        border-radius: 15px; /* Rounded corners */
-        padding: 60px 20px; /* Adjust padding */
+        background: linear-gradient(135deg, #f8f9fc, #e0e0e0), url('ImagesBRGY/bubbles-bg.png'); /* Add bubble design */
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px;
+        padding: 60px 20px;
         text-align: center;
         position: relative;
         overflow: hidden;
@@ -592,9 +594,11 @@ function displayImage($imageData) {
     }
       /* Enhanced Officials Section */
     .barangay-officials {
-        background-color: #ffffff;
+        background: linear-gradient(135deg, #ffffff, #e0e0e0), url('ImagesBRGY/bubbles-bg.png'); /* Add bubble design */
+        background-size: cover;
+        background-position: center;
         color: #fff;
-        padding: 60px 20px; /* Increased padding */
+        padding: 60px 20px;
         text-align: center;
     }
     .barangay-officials h2 {
@@ -1841,7 +1845,9 @@ function displayImage($imageData) {
         }
         @media (max-width: 480px) {
             .welcome-text h1 {
-                font-size: 24px;
+                font-size: 24px; /* Adjust font size for better readability */
+                text-align: center; /* Center-align the heading */
+                line-height: 1.4; /* Improve spacing */
             }
             .welcome-text p {
                 font-size: 14px;
@@ -1897,6 +1903,55 @@ function displayImage($imageData) {
                 line-height: 1.5; /* Improve spacing */
                 padding: 0.5rem; /* Adjust padding */
                 text-align: justify; /* Justify text for better alignment */
+            }
+        }
+        @media (max-width: 480px) {
+            .welcome-text p {
+                text-align: justify; /* Justify text alignment for better readability */
+            }
+        }
+        .e-governance {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .e-governance::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
+            background-size: 200px 200px;
+            animation: moveBubbles 10s infinite linear;
+            z-index: -1;
+        }
+
+        .barangay-officials {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .barangay-officials::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
+            background-size: 200px 200px;
+            animation: moveBubbles 10s infinite linear;
+            z-index: -1;
+        }
+
+        @keyframes moveBubbles {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 100%;
             }
         }
     </style>
@@ -2059,7 +2114,7 @@ function displayImage($imageData) {
 
 <hr style="border: 1px solid #FFD700; margin: 40px 0;">
 
-<!-- Carousel Section -->
+<!-- Community Section -->
 <section class="carousel" id="carousel">
     <div class="container">
         <h2 style="font-size: 42px; font-weight: bold; color: #FFD700; text-align: center; margin-bottom: 30px; text-shadow: 3px 3px #0b2a54;">Barangay Community Highlights</h2>
@@ -2070,16 +2125,17 @@ function displayImage($imageData) {
             <div class="slides">
                 <?php 
                 $images = [
-                    ["src" => "ImagesBRGY/Image1.png", "title" => "Community Event", "description" => "A memorable event that brought the community together. Residents participated in various activities, including games, cultural performances, and a community feast, fostering unity and camaraderie."],
-                    ["src" => "ImagesBRGY/Image2.jpg", "title" => "Cultural Celebration", "description" => "Showcasing the rich culture of Barangay District 1. The event featured traditional dances, music, and local crafts, highlighting the heritage and diversity of the community."],
-                    ["src" => "ImagesBRGY/Image3.jpg", "title" => "Youth Engagement", "description" => "Empowering the youth through various activities. Programs included leadership training, sports tournaments, and educational workshops aimed at nurturing the next generation of leaders."],
-                    ["src" => "ImagesBRGY/image4.jpg", "title" => "Environmental Drive", "description" => "Promoting sustainability and environmental awareness. Volunteers planted trees, cleaned up public spaces, and conducted seminars on waste management and eco-friendly practices."],
-                    ["src" => "ImagesBRGY/image5.jpg", "title" => "Health Program", "description" => "Ensuring the well-being of our residents. Free medical check-ups, vaccination drives, and health education sessions were provided to promote a healthier community."],
-                    ["src" => "ImagesBRGY/image6.jpg", "title" => "Educational Initiative", "description" => "Providing learning opportunities for all ages. The initiative included free tutoring sessions, scholarship programs, and the distribution of educational materials to underprivileged students."],
-                    ["src" => "ImagesBRGY/image7.jpg", "title" => "Infrastructure Development", "description" => "Improving facilities for a better community. Recent projects include the construction of new roads, community centers, and recreational parks to enhance the quality of life for residents."],
-                    ["src" => "ImagesBRGY/image8.jpg", "title" => "Sports Fest", "description" => "Encouraging fitness and teamwork through sports. The event featured basketball, volleyball, and other sports competitions, promoting physical health and community spirit."]
+                    ["src" => "ImagesBRGY/Image1.png", "title" => "Community Event", "description" => "A memorable event that brought the community together to celebrate unity and progress."],
+                    ["src" => "ImagesBRGY/Image2.jpg", "title" => "Cultural Celebration", "description" => "A vibrant display of our rich cultural heritage and traditions."],
+                    ["src" => "ImagesBRGY/Image3.jpg", "title" => "Youth Engagement", "description" => "Empowering the youth through various programs and activities."],
+                    ["src" => "ImagesBRGY/image4.jpg", "title" => "Environmental Drive", "description" => "Promoting sustainability and environmental awareness in the community."],
+                    ["src" => "ImagesBRGY/image5.jpg", "title" => "Health Program", "description" => "Ensuring the well-being of residents through health initiatives."],
+                    ["src" => "ImagesBRGY/image6.jpg", "title" => "Educational Initiative", "description" => "Providing learning opportunities to enhance knowledge and skills."],
+                    ["src" => "ImagesBRGY/image7.jpg", "title" => "Infrastructure Development", "description" => "Improving facilities to support community growth and development."],
+                    ["src" => "ImagesBRGY/image8.jpg", "title" => "Sports Fest", "description" => "Encouraging teamwork and sportsmanship through various games and activities."]
                 ];
-                for ($i = 0; $i < count($images); $i += 2): ?>
+                ?>
+                <?php for ($i = 0; $i < count($images); $i += 2): ?>
                     <div class="slide" style="display: flex; gap: 20px; justify-content: center;">
                         <?php for ($j = 0; $j < 2; $j++): ?>
                             <?php if (isset($images[$i + $j])): ?>
