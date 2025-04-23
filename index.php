@@ -103,14 +103,18 @@ function displayImage($imageData) {
             gap: 20px;
             margin: 0;
             padding: 0;
+            
         }
         .navbar ul li {
             display: inline;
+            color: #153D7D;
+            background-color: rgba(255, 215, 0, 0.9); /* Gold color with 90% opacity */
+            border-radius: 5px;
         }
         .navbar ul li a {
             font-family: 'Poppins', sans-serif;
-            color: #FFD700; /* Add color to the links */
             text-decoration: none;
+            color: #153D7D;
             font-size: 18px;
             font-weight: bold;
             padding: 10px 15px;
@@ -118,15 +122,11 @@ function displayImage($imageData) {
             display: flex;
             align-items: center;
             gap: 8px; /* Add spacing between icon and text */
+            
         }
         .navbar ul li a i {
             font-size: 18px; /* Adjust icon size */
-        }
-        .navbar ul li a:hover {
-            color: #153D7D;
-            background-color: #FFD700;
-            border-radius: 5px;
-            transform: scale(1.1);
+            
         }
         .menu-toggle {
             display: none;
@@ -180,6 +180,7 @@ function displayImage($imageData) {
                 z-index: 1001; /* Ensure the toggle button stays on top */
             }
             .navbar ul li a {
+                
                 text-align: center; /* Center-align text */
                 margin: 0 auto; /* Center the link horizontally */
                 display: block; /* Ensure block-level for proper centering */
@@ -204,6 +205,7 @@ function displayImage($imageData) {
             display: block;
             margin: 10px 0; /* Add spacing between items */
             text-align: center; /* Center-align text */
+            
         }
 
         .navbar ul li a {
@@ -836,11 +838,11 @@ function displayImage($imageData) {
         }
         /* Enhanced Testimonials Section */
         .testimonials {
-            background-color: rgba(255, 255, 255, 0.3); /* Add slight transparency */
+            /* Add slight transparency */
             padding: 80px 20px; /* Increased padding */
             border-radius: 15px;
             margin-top: 40px; /* Adjusted margin */
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Added box shadow */
+            /* Added box shadow */
             position: relative;
             overflow: hidden;
         }
@@ -1954,6 +1956,50 @@ function displayImage($imageData) {
                 background-position: 100% 100%;
             }
         }
+        /* Adjust wave visibility for all screen sizes */
+        .hero svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: -70px;
+            left: 0;
+            right: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero svg {
+                bottom: -50px; /* Adjust position for tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero svg {
+                bottom: -30px; /* Adjust position for mobile */
+            }
+        }
+        /* Ensure wave visibility on mobile */
+        .hero svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero svg {
+                bottom: 0; /* Ensure proper positioning for tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero svg {
+                bottom: 0; /* Ensure proper positioning for mobile */
+            }
+        }
     </style>
 </head>
 <body>
@@ -2017,6 +2063,11 @@ function displayImage($imageData) {
                 <span class="button-text">Learn More</span>
             </button>
         </div>
+    </div>
+    <div style="width: 100%; align-items: center; position: absolute; bottom: -70px; left: 0; right: 0;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1" d="M0,128L120,154.7C240,181,480,235,720,234.7C960,235,1200,181,1320,154.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        </svg>
     </div>
 </section>
 <div class="modal" id="learnMoreModal">

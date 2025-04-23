@@ -50,23 +50,19 @@
             flex-direction: column;
             align-items: center;
             overflow: hidden;
-            opacity: 0.95; /* Slightly transparent */
+            opacity: 0.95; 
         }
-
         #drawer:hover {
             width: 280px; /* Expanded width */
             opacity: 1; /* Full opacity */
         }
-
         #drawer.pinned {
             width: 300px;
             opacity: 1; /* Full opacity when pinned */
         }
-
         #drawer.pinned ~ .content {
             margin-left: 300px; /* Adjusted margin for pinned state */
         }
-
         #drawer:hover ~ .content {
             margin-left: 280px;
         }
