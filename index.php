@@ -62,6 +62,7 @@ function displayImage($imageData) {
             z-index: 1000;
             border-bottom: 3px solid #FFD700;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
         }
         header .logo {
             display: flex;
@@ -107,22 +108,21 @@ function displayImage($imageData) {
         }
         .navbar ul li {
             display: inline;
-            color: #153D7D;
-            background-color: rgba(255, 215, 0, 0.9); /* Gold color with 90% opacity */
-            border-radius: 5px;
+            border-radius: 10px;
+            
         }
         .navbar ul li a {
             font-family: 'Poppins', sans-serif;
             text-decoration: none;
-            color: #153D7D;
+            color: rgba(255, 215, 0, 0.9); /* Gold color with 90% opacity */
             font-size: 18px;
             font-weight: bold;
             padding: 10px 15px;
             transition: color 0.3s, background-color 0.3s, transform 0.3s;
             display: flex;
             align-items: center;
-            gap: 8px; /* Add spacing between icon and text */
-            
+            gap: 8px; 
+            border-radius: 10px;
         }
         .navbar ul li a i {
             font-size: 18px; /* Adjust icon size */
@@ -1956,29 +1956,12 @@ function displayImage($imageData) {
                 background-position: 100% 100%;
             }
         }
-        /* Adjust wave visibility for all screen sizes */
-        .hero svg {
-            display: block;
-            width: 100%;
-            height: auto;
-            position: absolute;
-            bottom: -70px;
-            left: 0;
-            right: 0;
+        /* Ensure SVG wave visibility in mobile view */
+        .hero {
+            position: relative;
+            overflow: hidden; /* Prevent clipping of child elements */
         }
 
-        @media (max-width: 768px) {
-            .hero svg {
-                bottom: -50px; /* Adjust position for tablets */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero svg {
-                bottom: -30px; /* Adjust position for mobile */
-            }
-        }
-        /* Ensure wave visibility on mobile */
         .hero svg {
             display: block;
             width: 100%;
@@ -1987,18 +1970,7 @@ function displayImage($imageData) {
             bottom: 0;
             left: 0;
             right: 0;
-        }
-
-        @media (max-width: 768px) {
-            .hero svg {
-                bottom: 0; /* Ensure proper positioning for tablets */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero svg {
-                bottom: 0; /* Ensure proper positioning for mobile */
-            }
+            z-index: -1; /* Place behind other content */
         }
     </style>
 </head>
