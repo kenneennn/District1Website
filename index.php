@@ -836,7 +836,7 @@ function displayImage($imageData) {
         }
         /* Enhanced Testimonials Section */
         .testimonials {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(255, 255, 255, 0.3); /* Add slight transparency */
             padding: 80px 20px; /* Increased padding */
             border-radius: 15px;
             margin-top: 40px; /* Adjusted margin */
@@ -1979,7 +1979,7 @@ function displayImage($imageData) {
 <section class="hero" id="hero">
     <div class="container">
         <video autoplay muted loop>
-            <source src="bgvideo/a.mp4" type="video/mp4">
+            <source src="bgvideo/d1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="testimonials">
