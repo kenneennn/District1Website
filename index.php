@@ -536,6 +536,7 @@ function displayImage($imageData) {
         color: #FFD700; /* Gold color */
         text-shadow: 2px 2px #19345a; /* Text shadow */
         margin-bottom: 20px;
+        text-align: center; /* Centered heading */
     }
     .e-governance p {
         font-size: 18px;
