@@ -109,7 +109,7 @@ function displayImage($imageData) {
         .navbar ul li {
             display: inline;
             border-radius: 10px;
-            
+            /* Removed background styling */
         }
         .navbar ul li a {
             font-family: 'Poppins', sans-serif;
@@ -156,8 +156,7 @@ function displayImage($imageData) {
             .navbar ul {
                 display: none;
                 flex-direction: column;
-                gap: 10px;
-                background-color: rgba(21, 61, 125, 0.8); /* Make the dropdown background semi-transparent */
+                gap: 10px; /* Make the dropdown background semi-transparent */
                 position: absolute;
                 top: 60px;
                 left: 0;
@@ -212,7 +211,7 @@ function displayImage($imageData) {
             font-size: 16px; /* Adjust font size for better readability */
             padding: 12px 20px; /* Add padding for touch-friendly design */
             border-radius: 5px; /* Add rounded corners */
-            background-color: rgba(255, 255, 255, 0.1); /* Add subtle background */
+             /* Add subtle background */
             transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
         }
 
@@ -527,7 +526,7 @@ function displayImage($imageData) {
         }
        /* E-Governance Section */
        .e-governance {
-        background: linear-gradient(135deg, #f8f9fc, #e0e0e0), url('ImagesBRGY/bubbles-bg.png'); /* Add bubble design */
+        background: linear-gradient(135deg, #f8f9fc, #e0e0e0), url(''); 
         background-size: cover;
         background-position: center;
         border-radius: 15px;
@@ -845,6 +844,7 @@ function displayImage($imageData) {
             /* Added box shadow */
             position: relative;
             overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.4);
         }
         .testimonials::before {
             content: '';
@@ -1988,7 +1988,7 @@ function displayImage($imageData) {
         <ul>
             <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="#e-governance"><i class="fas fa-cogs"></i> E-Governance</a></li>
-            <li><a href="#carousel"><i class="fas fa-images"></i> Barangay Community Highlights</a></li>
+            <li><a href="#carousel"><i class="fas fa-images"></i> Barangay Highlights</a></li>
             <li><a href="#barangay-officials"><i class="fas fa-users"></i> Barangay Officials</a></li>
             <li><a href="#timeline"><i class="fas fa-history"></i> Barangay Journey</a></li>
         </ul>
