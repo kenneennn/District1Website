@@ -42,7 +42,7 @@ function displayImage($imageData) {
             font-family: 'Poppins', sans-serif;
         }
         body {
-            background-color: #eef2f7;
+            background-color: #fff;
             color: #333;
             line-height: 1.6;
             margin-top: 80px;
@@ -2109,7 +2109,7 @@ function displayImage($imageData) {
     </div>
 </section>
 
-<hr style="border: 1px solid #fff; background-color: #fff; margin: 40px 0;">
+<hr style="border: 1px solid #FFD700; background-color: #fff; margin: 40px 0;">
 
 <!-- Community Section -->
 <section class="carousel" id="carousel">
