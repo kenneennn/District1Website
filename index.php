@@ -595,7 +595,7 @@ function displayImage($imageData) {
     }
       /* Enhanced Officials Section */
     .barangay-officials {
-        background: linear-gradient(135deg, #ffffff, #e0e0e0), url('ImagesBRGY/bubbles-bg.png'); /* Add bubble design */
+        /* Add bubble design */
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -1918,16 +1918,7 @@ function displayImage($imageData) {
         }
 
         .e-governance::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
-            background-size: 200px 200px;
-            animation: moveBubbles 10s infinite linear;
-            z-index: -1;
+            content: none;
         }
 
         .barangay-officials {
@@ -1936,25 +1927,11 @@ function displayImage($imageData) {
         }
 
         .barangay-officials::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
-            background-size: 200px 200px;
-            animation: moveBubbles 10s infinite linear;
-            z-index: -1;
+            content: none;
         }
 
         @keyframes moveBubbles {
-            0% {
-                background-position: 0 0;
-            }
-            100% {
-                background-position: 100% 100%;
-            }
+            /* Removed animation */
         }
         /* Ensure SVG wave visibility in mobile view */
         .hero {
