@@ -2109,7 +2109,7 @@ function displayImage($imageData) {
     </div>
 </section>
 
-<hr style="border: 1px solid #FFD700; margin: 40px 0;">
+<hr style="border: 1px solid #fff; background-color: #fff; margin: 40px 0;">
 
 <!-- Community Section -->
 <section class="carousel" id="carousel">
