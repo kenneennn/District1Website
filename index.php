@@ -526,12 +526,7 @@ function displayImage($imageData) {
         }
        /* E-Governance Section */
        .e-governance {
-        background: linear-gradient(135deg, #f8f9fc, #e0e0e0), url(''); 
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-        padding: 60px 20px;
-        text-align: center;
+        background-color: #fff; /* Changed background color to white */
         position: relative;
         overflow: hidden;
     }
@@ -595,9 +590,9 @@ function displayImage($imageData) {
     }
       /* Enhanced Officials Section */
     .barangay-officials {
-        /* Add bubble design */
-        background-size: cover;
-        background-position: center;
+        background-color: #fff; /* Changed background color to white */
+        position: relative;
+        overflow: hidden;
         color: #fff;
         padding: 60px 20px;
         text-align: center;
@@ -720,6 +715,7 @@ function displayImage($imageData) {
         }
         /* Enhanced Carousel Styles */
         .carousel {
+            background-color: #fff; /* Changed background color to white */
             display: flex;
             justify-content: center;
             align-items: center;
