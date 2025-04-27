@@ -1946,6 +1946,9 @@ function displayImage($imageData) {
             right: 0;
             z-index: -1; /* Place behind other content */
         }
+        #videoPlayer {
+            transition: opacity 1s ease-in-out;
+        }
     </style>
 </head>
 <body>
@@ -1970,8 +1973,9 @@ function displayImage($imageData) {
 </header>
 <section class="hero" id="hero">
     <div class="container">
-        <video autoplay muted loop>
+        <video id="videoPlayer" autoplay muted>
             <source src="bgvideo/d1.mp4" type="video/mp4">
+            <source src="BgVideo/a.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="testimonials">
@@ -2630,6 +2634,21 @@ chatInput.addEventListener("input", () => {
                 });
             }
         });
+    });
+</script>
+<script>
+    const videoPlayer = document.getElementById('videoPlayer');
+    const sources = ["bgvideo/d1.mp4", "BgVideo/a.mp4"];
+    let currentSourceIndex = 0;
+
+    videoPlayer.addEventListener('ended', () => {
+        videoPlayer.style.opacity = 0; // Fade out
+        setTimeout(() => {
+            currentSourceIndex = (currentSourceIndex + 1) % sources.length;
+            videoPlayer.src = sources[currentSourceIndex];
+            videoPlayer.play();
+            videoPlayer.style.opacity = 1; // Fade in
+        }, 1000); // Match the transition duration
     });
 </script>
 </body>
