@@ -299,14 +299,10 @@
         }
 
         .info-section a {
-            color: #ffcc00;
+            color: #19345a;
             text-decoration: none;
             transition: color 0.3s ease-in-out;
-        }
-
-        .info-section a:hover {
-            text-decoration: underline;
-            color: #ff9900;
+            Text-decoration: underline;
         }
 
         .cube-loader {
@@ -435,7 +431,7 @@
     <div class="info-section">
         <h3>Welcome to DILG Portal</h3>
         <p>Access your dashboard and manage your account.</p>
-        <p>For support, contact us at <a href="mailto:district01@gmail.com.ph">district01@gmail.com.ph</a></p>
+        <p>For support, contact us at <a href="mailto:barangaydistrictno01@gmail.com">barangaydistrictno01@gmail.com</a></p>
     </div>
 
     <div id="snackbar"></div>

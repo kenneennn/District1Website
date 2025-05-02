@@ -1548,7 +1548,7 @@ function displayImage($imageData) {
         }
 
         .chatbot-icon::after {
-            content: "Chat Me!";
+            content: "Chat Now!";
             position: absolute;
             top: -40px;
             left: 50%;
@@ -1557,7 +1557,7 @@ function displayImage($imageData) {
             color: #FFD700;
             padding: 5px;
             border-radius: 5px;
-            font-size: 12px;
+            font-size: 15px;
             white-space: nowrap;
             opacity: 1;
             visibility: visible;
@@ -2247,13 +2247,11 @@ function displayImage($imageData) {
             </div>
         </div>
         <div class="carousel-indicators">
-            <button class="arrow left-arrow" onclick="moveSlide(-1)">&#8592;</button>
             <?php for ($i = 0; $i < ceil(count($images) / 2); $i++): ?>
                 <button class="indicator" data-slide="<?php echo $i; ?>" onclick="setSlide(<?php echo $i; ?>)">
                     <span><?php echo $i + 1; ?></span>
                 </button>
             <?php endfor; ?>
-            <button class="arrow right-arrow" onclick="moveSlide(1)">&#8594;</button>
         </div>
     </div>
 </section>
@@ -2522,7 +2520,7 @@ function showSnackbar(message) {
     </div>
     <div class="chat-body" id="chatBody">
         <div class="chat-message bot">
-            Welcome to Barangay District 1 Chatbot! How can I assist you today? Feel free to ask any questions about our services or community.
+            Welcome to Barangay District 1 Chatbot! How can I assist you today? Feel free to ask any questions about our e-services.
         </div>
     </div>
     <div class="chat-footer">
@@ -2541,12 +2539,10 @@ async function fetchFAQs() {
 }
 
 function detectLanguage(query) {
-    const tagalogWords = ['paano', 'saan', 'ano', 'magkano', 'ilan', 'kailan'];
-    const lowerQuery = query.toLowerCase();
-    return tagalogWords.some(word => lowerQuery.includes(word)) ? 'tagalog' : 'english';
+    return 'english'; // Always default to English
 }
 
-function findRelevantQuestion(query, faqs, language) {
+function findRelevantQuestion(query, faqs) {
     const lowerQuery = query.toLowerCase();
     let exactMatch = null;
     const suggestions = [];
@@ -2562,13 +2558,6 @@ function findRelevantQuestion(query, faqs, language) {
         });
     });
 
-    if (language === 'tagalog') {
-        return {
-            exactMatch: exactMatch ? `Ang sagot ay: ${exactMatch}` : null,
-            suggestions: suggestions.map(s => `- ${s}`)
-        };
-    }
-
     return { exactMatch, suggestions };
 }
 
@@ -2580,21 +2569,15 @@ async function sendMessage() {
         input.value = "";
 
         const faqs = await fetchFAQs();
-        const language = detectLanguage(message);
-        const { exactMatch, suggestions } = findRelevantQuestion(message, faqs, language);
+        const { exactMatch, suggestions } = findRelevantQuestion(message, faqs);
 
         if (exactMatch) {
-            const response = language === 'tagalog' ? exactMatch.tagalog_answer : exactMatch.answer;
-            setTimeout(() => appendMessage(response, "bot"), 500);
+            setTimeout(() => appendMessage(exactMatch, "bot"), 500);
         } else if (suggestions.length > 0) {
-            const suggestionText = language === 'tagalog'
-                ? `Pasensya na, wala akong eksaktong sagot. Baka ang ibig mong sabihin ay:\n${suggestions.join("\n")}`
-                : `Sorry, I couldn't find an exact match. Did you mean:\n${suggestions.join("\n")}`;
+            const suggestionText = `Sorry, I couldn't find an exact match. Did you mean:\n${suggestions.join("\n")}`;
             setTimeout(() => appendMessage(suggestionText, "bot"), 500);
         } else {
-            const noMatchText = language === 'tagalog'
-                ? "Pasensya na, wala akong mahanap na kaugnay na impormasyon."
-                : "Sorry, I couldn't find any relevant information.";
+            const noMatchText = "Sorry, I couldn't find any relevant information.";
             setTimeout(() => appendMessage(noMatchText, "bot"), 500);
         }
     }
@@ -2626,8 +2609,8 @@ async function autofillSuggestions() {
 
         faqs.categories.forEach(category => {
             category.questions.forEach(q => {
-                if (q.question.toLowerCase().includes(query) || q.tagalog_question.toLowerCase().includes(query)) {
-                    suggestions.push(`${q.question} / ${q.tagalog_question}`);
+                if (q.question.toLowerCase().includes(query)) {
+                    suggestions.push(q.question);
                 }
             });
         });

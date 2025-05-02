@@ -71,7 +71,7 @@
             <li>The right to request deletion of your data</li>
             <li>The right to file a complaint with the National Privacy Commission</li>
         </ul>
-        <p>For more information, please contact Barangay District 1 Office at (02) 123-4567 or email us at <a href="mailto:info@barangaydistrict1.gov.ph">info@barangaydistrict1.gov.ph</a>.</p>
+        <p>For more information, please contact Barangay District 1 Office +6392 7654 123 at  or email us at <a href="mailto:barangaydistrictno01@gmail.com">barangaydistrictno01@gmail.com</a>.</p>
     </div>
     <div style="text-align: center; margin-top: 20px;">
         <button onclick="window.history.back()" style="padding: 10px 20px; font-size: 16px; background-color: #2980b9; color: #fff; border: none; border-radius: 5px; cursor: pointer;">

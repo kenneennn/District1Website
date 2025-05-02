@@ -213,7 +213,7 @@ $password = '';
     <div class="mui-contact-card">
         <h3><span class="material-icons">contact_support</span> Contact Us</h3>
         <p>If you have any questions or need further assistance, please feel free to contact us:</p>
-        <p>Email: <a href="mailto:district01@gmail.com">district01@gmail.com</a></p>
+        <p>Email: <a href="mailto:barangaydistrictno01@gmail.com">barangaydistrictno01@gmail.com</a></p>
         <p>Phone: <a href="tel:+63927654123">+6392 7654 123</a></p>
     </div>
 

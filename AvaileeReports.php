@@ -14,7 +14,9 @@ if ($row = $result->fetch_assoc()) {
     $barangayName = $row['BarangayName'];
 }
 $availeeData = [];
-$query = "SELECT Lastname, Firstname, Middlename, Age, DateOfBirth, Sex, EducationalLevel, Course, OSY FROM tblavailee";
+$currentMonth = date('m');
+$currentYear = date('Y');
+$query = "SELECT Lastname, Firstname, Middlename, Age, DateOfBirth, Sex, EducationalLevel, Course, OSY FROM tblavailee WHERE MONTH(DateOfBirth) = $currentMonth AND YEAR(DateOfBirth) = $currentYear";
 $result = $conn->query($query);
 while ($row = $result->fetch_assoc()) {
     $fullName = $row['Lastname'] . ', ' . $row['Firstname'] . ' ' . $row['Middlename'];
