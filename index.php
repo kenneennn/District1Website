@@ -786,21 +786,59 @@ function displayImage($imageData) {
         .carousel-indicators {
             display: flex;
             justify-content: center;
-            margin-top: 30px;
-            gap: 10px;
+            align-items: center;
+            margin-top: 20px;
+            gap: 15px;
         }
 
-        .indicator {
-            width: 20px;
-            height: 20px;
-            background-color: #FFD700;
+        .carousel-indicators .indicator {
+            background: #FFD700;
+            border: 2px solid #153D7D;
             border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #153D7D;
             cursor: pointer;
-            transition: transform 0.3s;
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
         }
 
-        .indicator.active {
-            background-color: #FF8800;
+        .carousel-indicators .indicator:hover {
+            background: #FF8800;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .carousel-indicators .indicator.active {
+            background: #FF8800;
+            color: #fff;
+            transform: scale(1.2);
+        }
+
+        .carousel-indicators .arrow {
+            background: #153D7D;
+            color: #FFD700;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
+        }
+
+        .carousel-indicators .arrow:hover {
+            background: #FF8800;
+            color: #fff;
+            transform: scale(1.1);
         }
 
         @media (max-width: 768px) {
@@ -2209,11 +2247,13 @@ function displayImage($imageData) {
             </div>
         </div>
         <div class="carousel-indicators">
+            <button class="arrow left-arrow" onclick="moveSlide(-1)">&#8592;</button>
             <?php for ($i = 0; $i < ceil(count($images) / 2); $i++): ?>
                 <button class="indicator" data-slide="<?php echo $i; ?>" onclick="setSlide(<?php echo $i; ?>)">
                     <span><?php echo $i + 1; ?></span>
                 </button>
             <?php endfor; ?>
+            <button class="arrow right-arrow" onclick="moveSlide(1)">&#8594;</button>
         </div>
     </div>
 </section>
