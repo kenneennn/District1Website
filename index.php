@@ -1949,6 +1949,60 @@ function displayImage($imageData) {
         #videoPlayer {
             transition: opacity 1s ease-in-out;
         }
+        .carousel-indicators .indicator {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: #FFD700;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.3s;
+        }
+
+        .carousel-indicators .indicator:hover {
+            color: #FF8800;
+        }
+
+        .carousel-indicators .indicator span {
+            display: flex;
+            align-items: center;
+        }
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        .carousel-indicators .indicator {
+            background: #FFD700;
+            border: 2px solid #153D7D;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #153D7D;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
+        }
+
+        .carousel-indicators .indicator:hover {
+            background: #FF8800;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .carousel-indicators .indicator.active {
+            background: #FF8800;
+            color: #fff;
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body>
@@ -2156,7 +2210,9 @@ function displayImage($imageData) {
         </div>
         <div class="carousel-indicators">
             <?php for ($i = 0; $i < ceil(count($images) / 2); $i++): ?>
-                <span class="indicator" onclick="setSlide(<?php echo $i; ?>)"></span>
+                <button class="indicator" data-slide="<?php echo $i; ?>" onclick="setSlide(<?php echo $i; ?>)">
+                    <span><?php echo $i + 1; ?></span>
+                </button>
             <?php endfor; ?>
         </div>
     </div>
