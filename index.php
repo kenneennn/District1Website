@@ -20,7 +20,7 @@ function displayImage($imageData) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Barangay District 1 - Municipality of San Manuel</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -156,12 +156,15 @@ function displayImage($imageData) {
             .navbar ul {
                 display: none;
                 flex-direction: column;
-                gap: 10px; /* Make the dropdown background semi-transparent */
+                gap: 15px;
                 position: absolute;
                 top: 60px;
                 left: 0;
                 width: 100%;
-                padding: 10px 0;
+                padding: 15px 0;
+                background-color: rgba(21, 61, 125, 0.9);
+                border-radius: 0 0 10px 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                 transition: max-height 0.3s ease-in-out;
                 max-height: 0;
                 overflow: hidden;
@@ -183,6 +186,21 @@ function displayImage($imageData) {
                 text-align: center; /* Center-align text */
                 margin: 0 auto; /* Center the link horizontally */
                 display: block; /* Ensure block-level for proper centering */
+            }
+            .navbar ul li {
+                text-align: center;
+                margin: 0;
+            }
+            .navbar ul li a {
+                font-size: 16px;
+                padding: 10px 20px;
+                color: #FFD700;
+                text-decoration: none;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .navbar ul li a:hover {
+                background-color: #FFD700;
+                color: #153D7D;
             }
         }
         @media (max-width: 480px) {
@@ -1525,11 +1543,11 @@ function displayImage($imageData) {
         .chatbot-icon {
             position: fixed;
             bottom: 20px;
-            right: 40px;
+            right: 20px;
             background: linear-gradient(135deg, #FFD700, #FFC107);
             color: #153D7D;
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -1543,40 +1561,60 @@ function displayImage($imageData) {
         }
 
         .chatbot-icon:hover {
-            transform: scale(1.2);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 20px #FFD700;
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 15px #FFD700;
         }
 
         .chatbot-icon::after {
             content: "Chat Now!";
             position: absolute;
-            top: -40px;
+            top: -30px;
             left: 50%;
             transform: translateX(-50%);
             background: #153D7D;
             color: #FFD700;
-            padding: 5px;
-            border-radius: 5px;
-            font-size: 15px;
+            padding: 4px;
+            border-radius: 4px;
+            font-size: 12px;
             white-space: nowrap;
-            opacity: 1;
+            opacity: 0.9;
             visibility: visible;
         }
 
         .chatbot-icon i {
-            font-size: 30px;
+            font-size: 24px;
             animation: pulse 1.5s infinite;
         }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
+        @media (max-width: 768px) {
+            .chatbot-icon {
+                width: 50px;
+                height: 50px;
+                bottom: 15px;
+                right: 15px;
             }
-            50% {
-                transform: scale(1.1);
+            .chatbot-icon i {
+                font-size: 20px;
             }
-            100% {
-                transform: scale(1);
+            .chatbot-icon::after {
+                font-size: 10px;
+                top: -25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .chatbot-icon {
+                width: 40px;
+                height: 40px;
+                bottom: 10px;
+                right: 10px;
+            }
+            .chatbot-icon i {
+                font-size: 16px;
+            }
+            .chatbot-icon::after {
+                font-size: 8px;
+                top: -20px;
             }
         }
         /* Chat Modal Styles */
@@ -1945,6 +1983,16 @@ function displayImage($imageData) {
         @media (max-width: 480px) {
             .welcome-text p {
                 text-align: justify; /* Justify text alignment for better readability */
+            }
+        }
+        @media (max-width: 768px) {
+            .e-governance p {
+                text-align: justify;
+            }
+        }
+        @media (min-width: 769px) {
+            .e-governance p {
+                text-align: center;
             }
         }
         .e-governance {

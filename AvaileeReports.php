@@ -158,13 +158,13 @@ $formattedDateNow = date("F d, Y");
     <table class="report-table">
         <thead>
             <tr>
-                <th>Full Name</th>
-                <th>Age</th>
-                <th>Date of Birth</th>
-                <th>Sex</th>
-                <th>Educational Level</th>
-                <th>Course</th>
-                <th>OSY</th>
+                <th><i class="fas fa-user"></i> Full Name</th>
+                <th><i class="fas fa-birthday-cake"></i> Age</th>
+                <th><i class="fas fa-calendar-alt"></i> Date of Birth</th>
+                <th><i class="fas fa-venus-mars"></i> Sex</th>
+                <th><i class="fas fa-graduation-cap"></i> Educational Level</th>
+                <th><i class="fas fa-book"></i> Course</th>
+                <th><i class="fas fa-user-clock"></i> OSY</th>
             </tr>
         </thead>
         <tbody>

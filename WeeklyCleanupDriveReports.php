@@ -308,12 +308,12 @@ try {
         <table>
             <thead>
                 <tr>
-                    <th>Week Number</th>
-                    <th>Number of Pax</th>
-                    <th>Number of Barangay Officials</th>
-                    <th>Number of Barangay Personnel</th>
-                    <th>Garbage Collected (in kg)</th>
-                    <th>Documentation</th>
+                    <th><i class="fas fa-calendar-week"></i> Week Number</th>
+                    <th><i class="fas fa-users"></i> Number of Pax</th>
+                    <th><i class="fas fa-user-tie"></i> Number of Barangay Officials</th>
+                    <th><i class="fas fa-user-friends"></i> Number of Barangay Personnel</th>
+                    <th><i class="fas fa-dumpster"></i> Garbage Collected (in kg)</th>
+                    <th><i class="fas fa-camera"></i> Documentation</th>
                 </tr>
             </thead>
             <tbody>

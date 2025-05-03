@@ -76,7 +76,7 @@ $result = $conn->query($sql);
     <table>
         <thead>
             <tr>
-                <th>Government Assistance</th>
+                <th><i class="fas fa-hands-helping"></i> Government Assistance</th>
             </tr>
         </thead>
         <tbody>

@@ -212,15 +212,15 @@ $conn->close();
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Full Name</th>
-                                    <th>Sex</th>
-                                    <th>Age</th>
-                                    <th>Civil Status</th>
-                                    <th>Purok</th>
-                                    <th>Educational Attainment</th>
-                                    <th>Employment Status</th>
-                                    <th>Nature of Work</th>
-                                    <th>Monthly Salary</th>
+                                    <th><i class="fas fa-user"></i> Full Name</th>
+                                    <th><i class="fas fa-venus-mars"></i> Sex</th>
+                                    <th><i class="fas fa-birthday-cake"></i> Age</th>
+                                    <th><i class="fas fa-ring"></i> Civil Status</th>
+                                    <th><i class="fas fa-map-marker-alt"></i> Purok</th>
+                                    <th><i class="fas fa-graduation-cap"></i> Educational Attainment</th>
+                                    <th><i class="fas fa-briefcase"></i> Employment Status</th>
+                                    <th><i class="fas fa-tools"></i> Nature of Work</th>
+                                    <th><i class="fas fa-money-bill-wave"></i> Monthly Salary</th>
                                 </tr>
                             </thead>
                             <tbody>

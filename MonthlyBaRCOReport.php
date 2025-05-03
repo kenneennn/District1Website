@@ -279,18 +279,18 @@ $conn->close();
         <table>
             <thead>
                 <tr>
-                    <th>Month</th>
-                    <th>Location</th>
-                    <th>Road Length</th>
-                    <th>Date of Clearing Operation</th>
-                    <th>ActionTaken</th>
-                    <th>Remarks</th>
-                    <th>Total SK Official</th>
-                    <th>No of Barangay Official</th>
-                    <th>Total Personel</th>
-                    <th>Image1</th>
-                    <th>Image2</th>
-                    <th>Image3</th>
+                    <th><i class="fas fa-calendar-alt"></i> Month</th>
+                    <th><i class="fas fa-map-marker-alt"></i> Location</th>
+                    <th><i class="fas fa-road"></i> Road Length</th>
+                    <th><i class="fas fa-calendar-check"></i> Date of Clearing Operation</th>
+                    <th><i class="fas fa-tasks"></i> Action Taken</th>
+                    <th><i class="fas fa-comment"></i> Remarks</th>
+                    <th><i class="fas fa-user-tie"></i> Total SK Official</th>
+                    <th><i class="fas fa-user-friends"></i> No of Barangay Official</th>
+                    <th><i class="fas fa-users"></i> Total Personnel</th>
+                    <th><i class="fas fa-image"></i> Documentation</th>
+                    <th><i class="fas fa-image"></i> Documentation</th>
+                    <th><i class="fas fa-image"></i> Documentation</th>
                 </tr>
             </thead>
             <tbody>
