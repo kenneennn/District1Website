@@ -2113,6 +2113,11 @@ function displayImage($imageData) {
 </header>
 <section class="hero" id="hero">
     <div class="container">
+        <video id="videoPlayer" autoplay muted>
+            <source src="bgvideo/d1.mp4" type="video/mp4">
+            <source src="BgVideo/a.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="testimonials">
             <div class="testimonials-container">
                 <div class="testimonial">
